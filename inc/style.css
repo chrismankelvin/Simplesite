@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+   background-color: rgb(233, 236, 238);
+}
+
+.header nav{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: inline-flex;
+    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.151);
+}
+ .header a img{
+    width: 110px;
+
+ }
+ .header nav ul{
+    list-style-type: none;
+    margin-left: 1px;
+ }
+ 
+ .header nav ul li{
+    list-style: none;
+    line-height: 60px;
+    display: inline-block;
+    margin-left: 30px;
+ }
+ .header nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ .main{
+    background-color: rgb(245, 246, 247);
+    width: 100%;
+    height: 575px;
+ }
+ .main .container{
+    width: 80%;
+    height: 400px;
+    background-color: transparent;
+    margin: auto;
+    
+ }
+ .main .container h1{
+    text-align: center;
+    padding: 70px 0 10px 0;
+    font-size: 60px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+ }
+ .main .container p{
+    text-align: center;
+    font-size: 17px;
+    
+ }
+ .main .container .buts{
+   background-color: transparent;
+   width: 420px;
+   height: 70px;
+   margin: auto;
+   margin-top: 40px;
+ }
+ button{
+   width: 40%;
+   height: 49px;
+   margin: 10px 10px 10px 12px;
+   border: 2px  solid #0cf5c2ee;
+   background-color: transparent;
+   border-radius: 45px;
+   box-shadow: 2px 3px 7px 4px rgba(0, 0, 0, 0.158);
+}
+button a{
+   text-decoration: none;
+   font-size: 14px;
+   text-transform: uppercase;
+   color: #32a88fee;
+}
+button:hover{
+   background-color: #32a88fee;
+   border: 1px solid #32a88fee;
+   transition: 0.34s ease;     
+}
+
+.footer{
+   background-color: #660707;
+   width: 100%;
+   height: 200px;
+   display: inline-flex;
+}
+.footer p{
+   color: #fff;
+   font-weight: bold;
+}
+.footer .icons{
+   width: 150px;
+   height: 160px;
+   background-color: transparent;
+   margin-left: 10px ;
+   padding: 5px 10px 5px ;
+   margin-top: 10px;
+}
+.footer .icons ul li {
+   list-style: none;
+}
+.footer .icons ul li svg:hover{
+   box-shadow: 2px 3px 7px 4px rgba(0, 0, 0, 0.158);
+}
+.footer .services{
+   background-color: transparent;
+   width: 100px;
+   height: 120px;
+   margin-left: 10px ;
+   padding: 5px 10px 5px ;
+   margin-top: 10px;
+}
+.footer .services ul li {
+   list-style: none;
+   margin-top: 10px;
+
+}
+.footer .services ul li a{
+   text-align: center;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: capitalize;
+   color: #fff;
+
+   
+}
