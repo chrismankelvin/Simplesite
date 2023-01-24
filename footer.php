@@ -39,7 +39,7 @@
     </div>
     <div class="services">
         <ul>
-            <li><a href="">free services</a></li>
+            <li><a href="./services.php">free services</a></li>
             <li><a href="">watch videos</a></li>
             <li><a href="">send request</a></li>
             <li><a href="">join us</a></li>
