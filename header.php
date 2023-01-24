@@ -16,7 +16,7 @@
         
             <ul>
                 <li><a href="index.php">home</a></li>
-                <li><a href="services.php">tutorials</a></li>
+                <li><a href="tutorials.php">tutorials</a></li>
                 <li><a href="about.php">about</a></li>
             </ul>
             </nav>
