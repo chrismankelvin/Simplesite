@@ -49,7 +49,7 @@
  }
  .main .container h1{
     text-align: center;
-    padding: 70px 0 10px 0;
+    padding: 10px 0 10px 0;
     font-size: 60px;
     font-weight: bolder;
     text-transform: uppercase;
@@ -263,6 +263,7 @@ button:hover{
    line-height: 60px ;
    border: none;
    margin-right: 10px;
+   margin-left: 40px;
 }
 
 .holder form input{
