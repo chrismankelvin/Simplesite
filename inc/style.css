@@ -305,7 +305,10 @@ button:hover {
    text-transform: capitalize;
    font-size: 19px;
 }
-
+.main .container .holder form .error{
+   text-transform: capitalize;
+   color: #db1212;
+}
 
 
 @media screen and (max-width: 600px) {
