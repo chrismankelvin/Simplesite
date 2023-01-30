@@ -19,14 +19,14 @@ require 'header.php'
             <ul>
                 <h1>Explore More</h1>
                 <li><a href="">watch movies</a></li>
-                <li><a href="">wcatch footebal</a></li>
+                <li><a href="">watch football</a></li>
                 <li><a href="">activate software</a></li>
                 <li><a href="">update software</a></li>
-                <li><a href="">fix error</a></li>
-                <li><a href="">wcatch footebal</a></li>
-                <li><a href="">wcatch footebal</a></li>
-                <li><a href="">wcatch footebal</a></li>
-                <li><a href="">wcatch footebals</a></li>
+                <li><a href="">fix errors</a></li>
+                <li><a href="">get free software</a></li>
+                <li><a href="">get free books</a></li>
+                <li><a href="">clean virus</a></li>
+                <li><a href="">speed windows </a></li>
             </ul>
 
         </div>
