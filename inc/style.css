@@ -358,7 +358,10 @@ button:hover {
       font-size: 15px;
 
    }
-
+   .main .container .buts {
+      width: 340px;
+      height: 70px;
+   }
 
    button a {
       text-decoration: none;
@@ -398,15 +401,9 @@ button:hover {
       width: 40%;
       height: 30px;
       margin-top: 22px;
-      background-color: rgba(255, 255, 255, 0.158);
-      border: 0.1px solid #29f53d88;
       border-radius: 5px;
       padding: 2px;
 
-   }
-
-   .main {
-      background-color: transparent;
    }
 
    .main .container1 {
@@ -450,7 +447,7 @@ button:hover {
       margin-top: 10px;
       display: inline-flex;
       background-color: transparent;
-      border-left:2px solid pink ;
+      border-left:2px solid #660707; ;
       margin-left:5px ;
    
    
