@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
     $file = fopen("data.txt", "a");
     fwrite($file, $name . "," . $email . "," . $country . "," . $grpname . "," . $grplink . "\n");
     fclose($file);
-    header("location: ../index.php?signup=success");
+    header("location: ../success.php?signin=success");
     
 }
 }

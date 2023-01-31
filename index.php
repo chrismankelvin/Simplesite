@@ -15,7 +15,7 @@ require 'header.php'
 
         <div class="buts">
             <button>
-                <a href="https://www.youtube.com/@simpletutorialtube">WATCH tutorials</a>
+                <a href="https://www.youtube.com/@simpletutorialstube">WATCH tutorials</a>
             </button>
             <button>
                 <a href="./tutorials.php">tutorials</a>

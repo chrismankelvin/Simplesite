@@ -39,6 +39,6 @@ if(isset($_POST['submit'])){
     $file = fopen("data.txt", "w");
     fwrite($file, $name . "," . $email . "," .$country . "," . $grpname . "," .$grplink . "\n");
     fclose($file);
-    header("location: ../index.php");
+    header("location: ./success.php");
     
 }
