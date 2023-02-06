@@ -18,7 +18,7 @@
     Thank You For Trusting Us
     <br>
     <br>
-    <a href="./index.php">SIMPLE TUTORIALS.COM</a>
+    <a href="./index.php">REC.COM</a>
     </div>
     
 </body>

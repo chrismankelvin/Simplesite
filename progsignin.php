@@ -5,13 +5,13 @@ require 'header.php'
     <div class="container">
         <div class="holder">
             <form action="./inc/postman.php" method="POST">
-                <p>SIGN IN</p>
+                <p>Send A request</p>
                 <fieldset>
                     <label for="name">Enter Your Name</label> <br>
                     <label for="email">Enter Your E-Mail</label><br>
                     <label for="county">Enter Your Country</label><br>
                     <label for="grpname"> Enter Group's Name</label><br>
-                    <label for="grplink">Enter Group Link</label>
+                    <label for="grplink">Enter Your phone</label>
                 </fieldset>
                 <input type="text" name="name" placeholder="Full Name" autocomplete="off"> <br>
                 <input type="text" name="email" placeholder="E-Mail Address" autocomplete="off"> <br>

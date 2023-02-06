@@ -50,4 +50,6 @@
 </div>
 
 </body>
+<script src="./inc/main.js"></script>
+
 </html>

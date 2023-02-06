@@ -4,7 +4,7 @@ require 'header.php'
 <div class="main">
     <div class="container1">
         <div class="leftmain">
-        <h1>what can i find here?</h1>
+        <h1>why Richard Educational Consult</h1>
         <p>
             Here you will find easy tutorials, illustrated with images step by step, showing you detialed process
             of how things are done, if you find these processes hard to understand you can always watch comprehensive video
@@ -17,7 +17,7 @@ require 'header.php'
         </div>
         <div class="rightlinks">
             <ul>
-                <h1>Explore More</h1>
+                <h1>international universtities</h1>
                 <li><a href="">watch movies</a></li>
                 <li><a href="">watch football</a></li>
                 <li><a href="">activate software</a></li>
@@ -26,7 +26,7 @@ require 'header.php'
                 <li><a href="">get free software</a></li>
                 <li><a href="">get free books</a></li>
                 <li><a href="">clean virus</a></li>
-                <li><a href="">speed windows </a></li>
+                <li><a href=""></a></li>
             </ul>
 
         </div>
