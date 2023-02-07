@@ -5,12 +5,8 @@ require 'header.php'
 <div class="main">
     <div class="container">
         <h1>Richard Educational Consult</h1>
-        <p>Welcome to Simple Tutorial's website, Here we deliver only comprehensive well captured tutorials
-            presented in videos. <br>
-            We provide Hacks, Tricks, Tips in simple videos, our services are completely free services. <br>
-            We are happy to have you on this site.
-            You can request any tutorial any time through this web. <br>
-            <strong>TUTORIALS, MAKE IT SIMPLE.</strong>
+        <p>Richard Educational Consult is an educational consulting firm that offers a wide range of services to students, parents, and educational institutions. They specialize in providing guidance and support to students of all ages who are seeking to further their education, whether it be at the primary, secondary, or tertiary level.
+
         </p>
 
         <div class="buts">

@@ -22,16 +22,15 @@
     </div>
     <aside class="nav_sidebar">
         <ul>
-            <li><span>Menu</span></li>
+            <li><span>REC Menu</span></li>
         <li><a href="index.php">home</a></li>
-        <li><a href="tutorials.php">Apply through rec</a></li>
-        <li><a href="about.php">send request</a></li>
-        <li><a href="about.php">services</a></li>
-        <li><a href="about.php">contact</a></li>
-        <li><a href="about.php">about</a></li>
-        <li><a href="about.php">Mr. Richard Agyei</a></li>
-        <li><a href="about.php">Sucess Rate Calculator (SRC)</a></li>
-        <li><a href="about.php">I applied through rec</a></li>
+        <li><a href="./progsignin.php">send request</a></li>
+        <li><a href="./services.php">services</a></li>
+        <li><a href="./progsignin.php">Apply through rec</a></li>
+        <li><a href="#">Sucess Rate Calculator (SRC)</a></li>
+        <li><a href="#">I applied through rec</a></li>
+        <li><a href="#">Mr. Richard Agyei</a></li>
+        <li><a href="#">contact</a></li>
    
     </ul>
 

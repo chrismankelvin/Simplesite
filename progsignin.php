@@ -10,14 +10,14 @@ require 'header.php'
                     <label for="name">Enter Your Name</label> <br>
                     <label for="email">Enter Your E-Mail</label><br>
                     <label for="county">Enter Your Country</label><br>
-                    <label for="grpname"> Enter Group's Name</label><br>
-                    <label for="grplink">Enter Your phone</label>
+                    <label for="grpname">Phone Number</label><br>
+                    <label for="grplink">Educational level</label>
                 </fieldset>
-                <input type="text" name="name" placeholder="Full Name" autocomplete="off"> <br>
-                <input type="text" name="email" placeholder="E-Mail Address" autocomplete="off"> <br>
-                <input type="text" name="country" placeholder="Your Country" autocomplete="off"><br>
-                <input type="text" name="grpname" placeholder="Group's Name" autocomplete="off"><br>
-                <input type="text" name="grplink" placeholder="Group's Link" autocomplete="off"><br>
+                <input type="text" name="name" placeholder=" Full Name" autocomplete="off"> <br>
+                <input type="text" name="email" placeholder=" E-Mail Address" autocomplete="off"> <br>
+                <input type="text" name="country" placeholder=" Country Of residence" autocomplete="off"><br>
+                <input type="text" name="grpname" placeholder=" International Format" autocomplete="off"><br>
+                <input type="text" name="grplink" placeholder=" Eg: Undergraduate" autocomplete="off"><br>
                 <button name="submit" type="submit">
                     submit
                 </button>

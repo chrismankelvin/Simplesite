@@ -18,14 +18,14 @@ require 'header.php'
         <div class="rightlinks">
             <ul>
                 <h1>international universtities</h1>
-                <li><a href="">watch movies</a></li>
-                <li><a href="">watch football</a></li>
-                <li><a href="">activate software</a></li>
-                <li><a href="">update software</a></li>
-                <li><a href="">fix errors</a></li>
-                <li><a href="">get free software</a></li>
-                <li><a href="">get free books</a></li>
-                <li><a href="">clean virus</a></li>
+                <li><a href="">Arizona State university</a></li>
+                <li><a href="">Kansas state university</a></li>
+                <li><a href="">liberty university</a></li>
+                <li><a href="">sonoma state university</a></li>
+                <li><a href="">san francisco Uni</a></li>
+                <li><a href="">mississipi State Uni</a></li>
+                <li><a href="">minnesota State Uni</a></li>
+                <li><a href="">arkanas state Uni</a></li>
                 <li><a href=""></a></li>
             </ul>
 

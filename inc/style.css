@@ -9,10 +9,12 @@
 
 .header nav {
    width: 100%;
-   height: 60px;
+   height: 40px;
    background-color: #fff;
    display: inline-flex;
    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.151);
+   position: fixed;
+   top:0;
 
 }
 /* 
@@ -29,7 +31,7 @@ menu bar menu bar menu bar
    background-color: #211f6e59;
    background-image: url(./logo.png);
    background-repeat: no-repeat;
-   background-size: 50%;
+   background-size: 39%;
    background-position: center;
    cursor: pointer;
 }
@@ -39,7 +41,7 @@ menu bar menu bar menu bar
    bottom: 0;
    width: 50px;
    padding: 0 5px;
-   height: calc(100vh - 60px);
+   height: calc(100vh - 40px);
    background-color: #221f6eb2;
    z-index: 1000;
    transition: all 0.4s ease-in-out;
@@ -87,7 +89,7 @@ menu bar
 
 .header nav ul li {
    list-style: none;
-   line-height: 60px;
+   line-height: 40px;
    display: inline-block;
    margin-left: 30px;
   
@@ -107,24 +109,26 @@ menu bar
 }
 
 .main {
-   background-color: rgb(245, 246, 247);
+   background-color: #fff;
    width: 100%;
    height: inherit;
 }
 
+
 .main .container {
    width: 90%;
-   height: 600px;
+   height: 900px;
    background-color: transparent;
    margin: auto;
-   padding-top: 40px;
+   padding-top: 70px;
+   
 
 }
 
 .main .container h1 {
    text-align: center;
    padding: 10px 0 10px 0;
-   font-size: 60px;
+   font-size: 40px;
    font-weight: bolder;
    text-transform: uppercase;
    color:#660707;
@@ -171,22 +175,111 @@ button:hover {
 }
 
 .footer {
-   background-color: #b1b1b1;
+   background-color: rgb(245, 246, 247);
    width: 100%;
-   height: 200px;
+   height: inherit;
+   border-top: 1.6px groove #e4e0e0a6;
+   
 }
 
+.footer .rec_info{
+   width: 50%;
+   height: 200px;
+   background-color: transparent;
+   float: left;
+   overflow: hidden;
+}
+.footer .rec_info .content{
+   width: 95%;
+   height: 190px;
+   background-color: transparent;
+   margin: auto;
+   margin-top: 5px;
+}
+.footer .rec_info .content p1{
+   font-weight: bold;
+   font-size: large;
+}
+
+
+.footer .quick_links{
+   width: 50%;
+   height: 200px;
+   background-color: transparent;
+   float: right;
+}
+.footer .quick_links .content p{
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+}
+.footer .quick_links .content{
+   width: 95%;
+   height: 190px;
+   background-color: transparent;
+   margin: auto;
+   margin-top: 5px;
+}
+.footer .quick_links .content ul {
+   list-style: none;
+}
+.footer .quick_links .content ul li{
+   text-align: center;
+   margin-bottom: 10px;
+   
+
+}
+.footer .quick_links .content ul li a{
+   text-decoration: none;
+   text-transform: capitalize;
+
+
+ 
+
+}
+.footer .icons_links{
+   width: 100%;
+   height: 300px;
+   background-color: transparent;
+}
+.footer .icons_links .content{
+   width: 98%;
+   height: 280px;
+   margin: auto; 
+   background-color: transparent;
+ 
+}
+.footer .icons_links .content p{
+   font-size: larger;
+   text-transform: uppercase;
+
+}
+.footer .signature{
+   width: 100%;
+   height: 40px;
+   background-color: #fff;
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: bold;
+   line-height: 40px;
+   border-top: 1.6px groove #e4e0e0a6;
+}
+
+
+
+
+/*
 .footer p {
-   color: ;
+   color: black;
    font-weight: bold;
    font-size: 16px;
    text-align: center;
 }
-
 .footer .icons {
    width: 250px;
    height: 60px;
-   background-color: transparent;
+   background-color: navy;
    padding: 25px 10px 5px;
    margin: auto;
 
@@ -206,7 +299,7 @@ button:hover {
 }
 
 .footer .services {
-   background-color: transparent;
+   background-color: burlywood;
    width: 400px;
    height: 30px;
    padding: 1px 10px 5px;
@@ -238,6 +331,7 @@ button:hover {
    color: #f3bf30;
    transition: 0.3s;
 }
+*/
 
 .onebutton {
    transform: translateX(120px);
@@ -263,14 +357,18 @@ button:hover {
    width: 90%;
    margin: auto;
    height: 90%;
-   background-color: whitesmoke;
-   }
+   background-color: rgb(255, 255, 255);
+   border-radius:10px ;
+   box-shadow: 2px 2px 1.25px 3px  rgba(0, 0, 0, 0.062);
+
+}
 
 .holder form p {
    text-align: center;
    font-size: 25px;
    color: #29f53c;
    padding-top: 20px;
+   text-transform: uppercase;
 }
 
 .holder form fieldset {
@@ -288,7 +386,8 @@ button:hover {
    height: 30px;
    margin-top: 22px;
    background-color: rgba(255, 255, 255, 0.158);
-   border: 0.05px solid  #f3bf30;
+
+   border: 0.05px solid  #211f6e59;
    border-radius: 5px;
    padding: 2px;
    box-shadow: 1px 1px 1.25px 1px inset rgba(0, 0, 0, 0.158);
@@ -297,8 +396,8 @@ button:hover {
 
 .holder form input:focus {
    outline: none;
-   border: 0.5px solid #f3bf30;
-   background-color: #f3bf3063;
+   border: 0.5px solid #221f6ebb;
+   background-color: #221f6e27;
 
 }
 
@@ -308,13 +407,14 @@ button:hover {
    margin-top: 40px;
    margin-left: 30%;
    text-transform: uppercase;
-   background-color: rgba(255, 255, 255, 0.877);
-   border: none;
+   background-color: #221f6e33;
    border-radius: 5px;
+   border: none;
+
 }
 
 .holder form button:hover {
-   background-color: #f3bf3073;
+   background-color: #211f6e59;
 
 }
 
@@ -392,13 +492,11 @@ button:hover {
 }
 
 @media screen and (max-width: 600px) {
-   .header a img {
-      width: 100px;
-   }
+
 
    .header nav ul li {
       list-style: none;
-      line-height: 60px;
+      line-height: 40px;
       display: inline-block;
       margin-left: 20px;
    }
@@ -412,7 +510,7 @@ button:hover {
    .main .container h1 {
       text-align: center;
       padding: 0px 0 20px 0;
-      font-size: 40px;
+      font-size: 30px;
    }
 
    .main .container p {
@@ -588,6 +686,6 @@ button:hover {
    
    }
 
-   
+
 
 }
