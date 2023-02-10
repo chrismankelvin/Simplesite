@@ -4,34 +4,32 @@
 }
 
 .header {
-   background-color: rgb(233, 236, 238);
+   background-color: rgb(255, 255, 255);
+   height: 40px;
 }
 
 .header nav {
    width: 100%;
    height: 40px;
-   background-color: #fff;
+   background-color: #aca6a6c4;
    display: inline-flex;
-   box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.151);
-   position: fixed;
-   top:0;
 
 }
 /* 
-menu bar menu bar menu bar
-menu bar menu bar menu bar
-menu bar menu bar menu bar
-menu bar menu bar menu bar
-menu bar menu bar menu bar
+menu bar menu bar menu bar                                                 
+menu bar menu bar menu bar                                                   
+menu bar menu bar menu bar                                                  
+menu bar menu bar menu bar                                                   
+menu bar menu bar menu bar                                                     
  */
 
 .header .btn_toggle_nav {
    width: 60px;
    height: 100%;
    background-color: #211f6e59;
-   background-image: url(./logo.png);
+   background-image: url(./files/menu.png);
    background-repeat: no-repeat;
-   background-size: 39%;
+   background-size: 40%;
    background-position: center;
    cursor: pointer;
 }
@@ -39,10 +37,10 @@ menu bar menu bar menu bar
    position: fixed;
    left: 0;
    bottom: 0;
-   width: 50px;
+   width: 0px;
    padding: 0 5px;
    height: calc(100vh - 40px);
-   background-color: #221f6eb2;
+   background-color: #24218bf6;
    z-index: 1000;
    transition: all 0.4s ease-in-out;
    visibility: hidden;
@@ -104,26 +102,82 @@ menu bar
 }
 .header nav ul li a:hover{
    color:  #221f6efa;
-   transition: 0.3s ease;
-   border-bottom: 0.5px solid ;
+   transition: 0.5s ease;
+   border-bottom: 0.01px solid ;
 }
 
 .main {
-   background-color: #fff;
+   background-color: #ffffff;
    width: 100%;
    height: inherit;
 }
 
 
 .main .container {
-   width: 90%;
-   height: 900px;
-   background-color: transparent;
+   width: 99.9%;
+   height: inherit;
+   background-color: #ce0d0d;
    margin: auto;
-   padding-top: 70px;
-   
+}
+.main .snd_rqst_container{
+   width: 99.9%;
+   height: 120vh;
+   background-color: #b1b1b1;
+   margin: auto;
 
 }
+.main .snd_rqst_container .holder form .error{
+   text-transform: capitalize;
+   color: #db1212;
+}
+.main .container .index_top_cont{
+   width: 100%;
+   height: 90vh;
+   background-image: linear-gradient(#05050559,#05050559),url(./files/people_run.jpg);
+   background-position:center ;
+   background-size: 100%;
+   background-color: yellow;
+   background-repeat: no-repeat;
+}
+.main .container .index_top_cont img{
+   width: 500px;
+   height: 500px;
+   margin-left: 50px;
+}
+.main .container .index_top_cont p{
+   color: #ffffff;
+   text-align: left;
+   margin-left: 90px;
+}
+.main .container .index_middle_cont{
+   width: 100%;
+   height: 100vh;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+}
+
+.main .container .index_middle_cont img{
+   width: 600px;
+   height: 500px;
+   margin: 50px 10px 30px 50px;
+
+}
+
+.main .container .index_middle_cont .p{
+   padding: 30px;
+
+}
+.main .container .index_middle_cont .p .p1,
+.main .container .index_middle_cont .p .p2,
+.main .container .index_middle_cont .p .p3,
+.main .container .index_middle_cont .p .p4{
+   color: rgb(65, 63, 61);
+   border-bottom: 3px solid rgb(196, 116, 196);
+   padding-bottom: 20px;
+   margin-top: 30px;
+
+}
+
 
 .main .container h1 {
    text-align: center;
@@ -134,13 +188,11 @@ menu bar
    color:#660707;
 
 }
-
 .main .container p {
    text-align: center;
    font-size: 17px;
    color:#660707;
 }
-
 .main .container .buts {
    background-color: transparent;
    width: 420px;
@@ -156,7 +208,6 @@ button {
    border: 0.2px solid  #f3bf3054;
    background-color:  #f3bf3054;
    border-radius: 45px;
-
 }
 
 button a {
@@ -200,6 +251,10 @@ button:hover {
    font-weight: bold;
    font-size: large;
 }
+.footer .rec_info .content p{
+   font-size: small;
+
+}
 
 
 .footer .quick_links{
@@ -213,6 +268,7 @@ button:hover {
    text-align: center;
    margin-bottom: 10px;
    text-transform: uppercase;
+   font-size: small;
 }
 .footer .quick_links .content{
    width: 95%;
@@ -233,10 +289,7 @@ button:hover {
 .footer .quick_links .content ul li a{
    text-decoration: none;
    text-transform: capitalize;
-
-
- 
-
+   color: #976f6f;
 }
 .footer .icons_links{
    width: 100%;
@@ -251,19 +304,24 @@ button:hover {
  
 }
 .footer .icons_links .content p{
-   font-size: larger;
+   font-size: small;
    text-transform: uppercase;
 
 }
 .footer .signature{
    width: 100%;
-   height: 40px;
+   height: 30px;
    background-color: #fff;
-   text-align: center;
    text-transform: capitalize;
-   font-weight: bold;
-   line-height: 40px;
    border-top: 1.6px groove #e4e0e0a6;
+}
+.footer .signature p{
+   text-align: left;
+   font-size: 10px;
+   margin-left: 30px;
+   margin-top: 10px;
+
+
 }
 
 
@@ -344,29 +402,33 @@ button:hover {
    margin: auto;
    margin-top: 40px;
 }
-
+/* styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form
+styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form */
 .holder {
    width: 50%;
    height: 500px;
    margin: auto;
    border: none;
    border-radius: 5px;
+   padding-top: 10px;
 }
 
 .holder form {
-   width: 90%;
+   width: 520px;
    margin: auto;
    height: 90%;
    background-color: rgb(255, 255, 255);
    border-radius:10px ;
    box-shadow: 2px 2px 1.25px 3px  rgba(0, 0, 0, 0.062);
-
+   margin-top: 90px;
+   padding-left: 20px;
 }
 
 .holder form p {
    text-align: center;
-   font-size: 25px;
-   color: #29f53c;
+   font-size: small;
+   color: #667067;
+   font-weight: bold;
    padding-top: 20px;
    text-transform: uppercase;
 }
@@ -378,7 +440,8 @@ button:hover {
    border: none;
    margin-right: 10px;
    margin-left: 10px;
-   color:#660707;
+   font-size: small;
+
 }
 
 .holder form input {
@@ -386,11 +449,11 @@ button:hover {
    height: 30px;
    margin-top: 22px;
    background-color: rgba(255, 255, 255, 0.158);
-
    border: 0.05px solid  #211f6e59;
    border-radius: 5px;
    padding: 2px;
    box-shadow: 1px 1px 1.25px 1px inset rgba(0, 0, 0, 0.158);
+   font-size: small; 
 
 }
 
@@ -402,8 +465,8 @@ button:hover {
 }
 
 .holder form button {
-   width: 40%;
-   height: 37px;
+   width: 34%;
+   height: 30px;
    margin-top: 40px;
    margin-left: 30%;
    text-transform: uppercase;
@@ -419,9 +482,9 @@ button:hover {
 }
 
 .main .container1 {
-   width: 90%;
+   width: 99.9%;
    height: 600px;
-   background-color: transparent;
+   background-color: burlywood;
    margin: auto;
    padding-top: 40px;
 }
@@ -440,17 +503,24 @@ button:hover {
 }
 
 .main .container1 .leftmain {
-   width: 70%;
+   width: 68%;
    height: 550px;
    float: left;
-   background-color: transparent;
+   background-color: rgb(180, 180, 98);
+   
 }
+.main .leftmain .service1{
+   width: 95%;
+   height: 300px;
+   background-color: #667067;
+   margin: auto;
 
+}
 .main .container1 .rightlinks {
    width: 28%;
    height: 500px;
    float: right;
-   background-color: transparent;
+   background-color: thistle;
    padding: 8px;
    border-left: 3px solid gray;
 }
@@ -482,10 +552,7 @@ button:hover {
 .main .container1 .rightlinks ul li a:hover{
    color:#f3bf30;
 }
-.main .container .holder form .error{
-   text-transform: capitalize;
-   color: #db1212;
-}
+
 .clickhere{
    color: #f3bf30;
    text-transform: capitalize;
