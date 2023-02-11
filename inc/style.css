@@ -6,6 +6,7 @@
 .header {
    background-color: rgb(255, 255, 255);
    height: 40px;
+
 }
 
 .header nav {
@@ -15,6 +16,7 @@
    display: inline-flex;
 
 }
+
 /* 
 menu bar menu bar menu bar                                                 
 menu bar menu bar menu bar                                                   
@@ -33,7 +35,8 @@ menu bar menu bar menu bar
    background-position: center;
    cursor: pointer;
 }
-.nav_sidebar{
+
+.nav_sidebar {
    position: fixed;
    left: 0;
    bottom: 0;
@@ -45,6 +48,7 @@ menu bar menu bar menu bar
    transition: all 0.4s ease-in-out;
    visibility: hidden;
 }
+
 .nav_sidebar ul {
    padding-top: 15px;
    overflow: hidden;
@@ -53,13 +57,15 @@ menu bar menu bar menu bar
 
 }
 
-.nav_sidebar ul li{
+.nav_sidebar ul li {
    line-height: 60px;
    list-style: none;
 
 
 }
-.nav_sidebar ul li a, .nav_sidebar ul li span {
+
+.nav_sidebar ul li a,
+.nav_sidebar ul li span {
    display: block;
    height: 60px;
    padding: 0 10px;
@@ -70,6 +76,7 @@ menu bar menu bar menu bar
    white-space: nowrap;
    opacity: 0;
    transition: all 0.4s ease-in-out;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -90,20 +97,22 @@ menu bar
    line-height: 40px;
    display: inline-block;
    margin-left: 30px;
-  
+
 }
 
 .header nav ul li a {
    text-transform: uppercase;
    text-decoration: none;
    font-size: 15px;
-   color:#221f6e85;
+   color: #0800ff85;
    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
 }
-.header nav ul li a:hover{
-   color:  #221f6efa;
+
+.header nav ul li a:hover {
+   color: #221f6efa;
    transition: 0.5s ease;
-   border-bottom: 0.01px solid ;
+   border-bottom: 0.01px solid;
 }
 
 .main {
@@ -119,72 +128,86 @@ menu bar
    background-color: #ffffff;
    margin: auto;
 }
-.main .container .apointment{
+
+.main .container .apointment {
    width: 100%;
    height: 100vh;
 
 }
+
 /* .main .container .apointment h1{
    margin-top: 80px;
 } */
-.main .snd_rqst_container{
+.main .snd_rqst_container {
    width: 99.9%;
    height: 120vh;
    background-color: #fff;
    margin: auto;
 
 }
-.main .snd_rqst_container .holder form .error{
+
+.main .snd_rqst_container .holder form .error {
    text-transform: capitalize;
    color: #db1212;
 }
-.main .container .index_top_cont{
+
+.main .container .index_top_cont {
    width: 100%;
    height: 90vh;
-   background-image: linear-gradient(#050505d3,#050505d3),url(./files/people_run.jpg);
-   background-position:center ;
+   background-image: linear-gradient(#050505d3, #050505d3), url(./files/people_run.jpg);
+   background-position: center;
    background-size: 100%;
    background-color: yellow;
    background-repeat: no-repeat;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.main .container .index_top_cont h1{
+
+.main .container .index_top_cont h1 {
    text-align: left;
    font-size: 60px;
    margin-left: 80px;
    line-height: 250px;
 }
-.main .container .index_top_cont img{
+
+.main .container .index_top_cont img {
    width: 500px;
    height: 500px;
    margin-left: 50px;
 }
-.main .container .index_top_cont p{
+
+.main .container .index_top_cont p {
    color: #ffffff;
    text-align: left;
    margin-left: 90px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.main .container .index_middle_cont{
+
+.main .container .index_middle_cont {
    width: 100%;
    height: 100vh;
    background-color: rgb(255, 255, 255);
    display: flex;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.main .container .index_middle_cont img{
+.main .container .index_middle_cont img {
    width: 600px;
    height: 500px;
    margin: 50px 10px 30px 50px;
 
+
 }
 
-.main .container .index_middle_cont .p{
+.main .container .index_middle_cont .p {
    padding: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+
 .main .container .index_middle_cont .p .p1,
 .main .container .index_middle_cont .p .p2,
 .main .container .index_middle_cont .p .p3,
-.main .container .index_middle_cont .p .p4{
+.main .container .index_middle_cont .p .p4 {
    color: rgb(65, 63, 61);
    border-bottom: 3px solid rgb(196, 116, 196);
    padding-bottom: 20px;
@@ -199,28 +222,31 @@ menu bar
    font-size: 40px;
    font-weight: bolder;
    text-transform: uppercase;
-   color:#ffffff;
+   color: #ffffff;
 
 }
+
 .main .container p {
    text-align: center;
    font-size: 17px;
-   color:#660707;
+   color: #660707;
 }
+
 .main .container .buts {
    background-color: transparent;
    width: 420px;
    height: 70px;
    margin: auto;
    margin-top: 40px;
+
 }
 
 button {
    width: 40%;
    height: 49px;
    margin: 10px 10px 10px 12px;
-   border: 0.2px solid  #f3bf3054;
-   background-color:  #f3bf3054;
+   border: 0.2px solid #f3bf3054;
+   background-color: #f3bf3054;
    border-radius: 15px;
 }
 
@@ -230,11 +256,12 @@ button a {
    text-transform: uppercase;
    color: #660707;
    font-weight: bold;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 button:hover {
-   background-color:  #f3bf30;
-   border: 0.2px solid  #f3bf30;
+   background-color: #f3bf30;
+   border: 0.2px solid #f3bf30;
    transition: 0.5s ease;
    box-shadow: 2px 3px 7px 4px rgba(0, 0, 0, 0.158);
 }
@@ -244,97 +271,111 @@ button:hover {
    width: 100%;
    height: inherit;
    border-top: 1.6px groove #e4e0e0a6;
-   
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.footer .rec_info{
+.footer .rec_info {
    width: 50%;
    height: 200px;
    background-color: transparent;
    float: left;
    overflow: hidden;
 }
-.footer .rec_info .content{
+
+.footer .rec_info .content {
    width: 95%;
    height: 190px;
    background-color: transparent;
    margin: auto;
    margin-top: 5px;
 }
-.footer .rec_info .content p1{
+
+.footer .rec_info .content p1 {
    font-weight: bold;
    font-size: large;
 }
-.footer .rec_info .content p{
+
+.footer .rec_info .content p {
    font-size: small;
 
 }
 
 
-.footer .quick_links{
+.footer .quick_links {
    width: 50%;
    height: 200px;
    background-color: transparent;
    float: right;
 }
-.footer .quick_links .content p{
+
+.footer .quick_links .content p {
    font-weight: bold;
    text-align: center;
    margin-bottom: 10px;
    text-transform: uppercase;
    font-size: small;
 }
-.footer .quick_links .content{
+
+.footer .quick_links .content {
    width: 95%;
    height: 190px;
    background-color: transparent;
    margin: auto;
    margin-top: 5px;
 }
+
 .footer .quick_links .content ul {
    list-style: none;
 }
-.footer .quick_links .content ul li{
+
+.footer .quick_links .content ul li {
    text-align: center;
    margin-bottom: 10px;
-   
+
 
 }
-.footer .quick_links .content ul li a{
+
+.footer .quick_links .content ul li a {
    text-decoration: none;
    text-transform: capitalize;
    color: #976f6f;
 }
-.footer .icons_links{
+
+.footer .icons_links {
    width: 100%;
    height: 300px;
    background-color: transparent;
 }
-.footer .icons_links .content{
+
+.footer .icons_links .content {
    width: 98%;
    height: 280px;
-   margin: auto; 
+   margin: auto;
    background-color: transparent;
- 
+
 }
-.footer .icons_links .content p{
+
+.footer .icons_links .content p {
    font-size: small;
    text-transform: uppercase;
 
 }
-.footer .icons_links .content a{
+
+.footer .icons_links .content a {
    margin-left: 7px;
    text-decoration: none;
    color: #727971;
 }
-.footer .signature{
+
+.footer .signature {
    width: 100%;
    height: 30px;
    background-color: #fff;
    text-transform: capitalize;
    border-top: 1.6px groove #e4e0e0a6;
 }
-.footer .signature p{
+
+.footer .signature p {
    text-align: left;
    font-size: 10px;
    margin-left: 30px;
@@ -415,31 +456,34 @@ button:hover {
    background-color: tan;
 }
 
-.main .container .onebut{
+.main .container .onebut {
    background-color: transparent;
    width: 420px;
    height: 70px;
    margin-top: 20px;
 }
+
 /* the appointment styling   the appointment styling  the appointment styling */
 /* the appointment styling   the appointment styling  the appointment styling */
 /* the appointment styling   the appointment styling  the appointment styling */
 
-.main .container .apointment{
+.main .container .apointment {
    background-color: transparent;
    width: 100%;
    height: 100vh;
    display: flex;
 }
+
 /* .main .container .apointment img {
 
 } */
-.main .container .apointment .apoint{
+.main .container .apointment .apoint {
    width: auto;
    height: inherit;
    background-color: transparent;
 }
-.main .container .apointment .apoint h3{
+
+.main .container .apointment .apoint h3 {
    text-align: left;
    padding-left: 10px;
    font-size: 55px;
@@ -447,15 +491,18 @@ button:hover {
    margin-top: 70px;
    font-family: Arial, Helvetica, sans-serif;
 }
-.main .container .apointment .apoint p{
+
+.main .container .apointment .apoint p {
 
    padding: 10px;
    text-align: left;
 }
+
 /* social tab social tab social tab social tab 
 social tab social tab social tab social tab /* social tab social tab social tab social tab 
 social tab social tab social tab social tab 
-social tab social tab social tab social tab  *//* social tab social tab social tab social tab 
+social tab social tab social tab social tab  */
+/* social tab social tab social tab social tab 
 social tab social tab social tab social tab 
 social tab social tab social tab social tab  */
 .main .container .social_cont .cont1,
@@ -463,7 +510,7 @@ social tab social tab social tab social tab  */
 .main .container .social_cont .cont3,
 .main .container .social_cont .cont4,
 .main .container .social_cont .cont5,
-.main .container .social_cont .cont6{
+.main .container .social_cont .cont6 {
    width: 97%;
    height: 50vh;
    margin: auto;
@@ -492,8 +539,8 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    margin: auto;
    height: 90%;
    background-color: #b1b1b117;
-   border-radius:10px ;
-   box-shadow: 2px 2px 1.25px 3px  rgba(0, 0, 0, 0.062);
+   border-radius: 10px;
+   box-shadow: 2px 2px 1.25px 3px rgba(0, 0, 0, 0.062);
    margin-top: 90px;
    padding-left: 20px;
 }
@@ -523,11 +570,11 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    height: 30px;
    margin-top: 22px;
    background-color: rgba(255, 255, 255, 0.158);
-   border: 0.05px solid  #211f6e59;
+   border: 0.05px solid #211f6e59;
    border-radius: 5px;
    padding: 2px;
    box-shadow: 1px 1px 1.25px 1px inset rgba(0, 0, 0, 0.158);
-   font-size: small; 
+   font-size: small;
 
 }
 
@@ -563,18 +610,20 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    margin: auto;
    padding-top: 40px;
 }
-.main .container1 h1{
+
+.main .container1 h1 {
    text-align: center;
    padding: 10px 0 10px 0;
    font-size: 20px;
    font-weight: bolder;
    text-transform: uppercase;
-   color:#660707;
+   color: #660707;
 }
+
 .main .container1 p {
    text-align: center;
    font-size: 17px;
-   color:#660707;
+   color: #660707;
 }
 
 .main .container1 .leftmain {
@@ -582,13 +631,14 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    height: inherit;
    float: left;
    background-color: rgb(255, 255, 255);
-   
+
 }
+
 .main .leftmain .service1,
 .main .leftmain .service2,
 .main .leftmain .service3,
 .main .leftmain .service4,
-.main .leftmain .service5{
+.main .leftmain .service5 {
    width: 95%;
    height: 80vh;
    background-color: #ffffff;
@@ -596,11 +646,13 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    padding: 5px;
    margin-bottom: 9px;
    border-bottom: 7px solid burlywood;
-   box-shadow: 1px 1px 1.25px 1px  rgba(0, 0, 0, 0.158);
+   box-shadow: 1px 1px 1.25px 1px rgba(0, 0, 0, 0.158);
 }
-.main .leftmain .service1 h2{
+
+.main .leftmain .service1 h2 {
    text-transform: capitalize;
 }
+
 .main .container1 .rightlinks {
    width: 28%;
    height: 200vh;
@@ -608,7 +660,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    background-color: rgb(255, 255, 255);
    padding: 8px;
    border-left: 3px solid gray;
-   
+
 }
 
 .main .container1 .rightlinks h1 {
@@ -633,13 +685,14 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 .main .container1 .rightlinks ul li a {
    text-decoration: none;
    text-transform: capitalize;
-   font-size: 19px; 
-}
-.main .container1 .rightlinks ul li a:hover{
-   color:#f3bf30;
+   font-size: 19px;
 }
 
-.clickhere{
+.main .container1 .rightlinks ul li a:hover {
+   color: #f3bf30;
+}
+
+.clickhere {
    color: #f3bf30;
    text-transform: capitalize;
 }
@@ -651,8 +704,9 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
       list-style: none;
       line-height: 40px;
       display: inline-block;
-      margin-left: 20px;
+      margin-left: 30px;
    }
+
 
    .header nav ul li a {
       text-transform: uppercase;
@@ -665,12 +719,52 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
       padding: 0px 0 20px 0;
       font-size: 30px;
    }
+   .nav_sidebar{
+      height: calc(100vh - 40px);
+
+   }
 
    .main .container p {
       text-align: center;
       font-size: 15px;
+   }
+
+   .main .container .index_top_cont {
+      background-size: 400%;
 
    }
+
+   .main .container .index_top_cont img {
+      width: 400px;
+      height: 400px;
+      margin-left: 0;
+      margin-top: 90px;
+   }
+
+   .main .container .index_top_cont p {
+      margin-left: 30px;
+   }
+
+   .main .container .index_middle_cont img {
+      width: 90%;
+      height: inherit;
+      margin: 10px 10px 10px 20px;
+
+
+   }
+
+   .main .container .index_middle_cont {
+      display: inline-block;
+      height: inherit;
+
+   }
+   .main .container .index_middle_cont .p .p1,
+.main .container .index_middle_cont .p .p2,
+.main .container .index_middle_cont .p .p3,
+.main .container .index_middle_cont .p .p4 {
+   padding-bottom: 10px;
+   margin-top: 10px;
+}
    .main .container .buts {
       width: 340px;
       height: 70px;
@@ -731,7 +825,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    .main .container1 .leftmain {
       float: none;
       width: 100%;
-      height: 590px;
+      height: inherit;
    }
 
    .main .container1 .rightlinks {
@@ -746,6 +840,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
       font-size: 21px;
       text-decoration: underline;
    }
+
    .footer .services {
       background-color: transparent;
       width: 90%;
@@ -754,29 +849,55 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
       margin: auto;
       margin-top: 30px;
    }
-   
+
    .footer .services ul li {
       list-style: none;
       margin-top: 10px;
       display: inline-flex;
       background-color: transparent;
-      border-left:2px solid #660707; ;
-      margin-left:5px ;
-   
-   
+      border-left: 2px solid #660707;
+      ;
+      margin-left: 5px;
+
+
    }
-   
+
    .footer .services ul li a {
       text-align: center;
       text-decoration: none;
       font-weight: bold;
       text-transform: capitalize;
       color: #fff;
-      font-size: 13px;  
+      font-size: 13px;
       margin-left: 4px;
-   
+
    }
-   
+   .main .container .index_top_cont h1{
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      line-height: 500px;
+
+   }
+   .main .container1{
+      background-color: rgb(255, 255, 255);
+      height: inherit;
+      padding-top: 10px;
+      width: 99.999999%;
+   }
+   .main .container .apointment{
+      display: inline;
+   }
+   .main .container .apointment img{
+      width: 100%;
+      height: 340px;
+   }.main .container .apointment .apoint h3,
+   .main .container .apointment .apoint p{
+      text-align: center;
+   }
+
+
+
+
 
 
 }
@@ -787,28 +908,32 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
       height: 30px;
       margin-top: 22px;
       background-color: rgba(255, 255, 255, 0.158);
-   
+
       border-radius: 5px;
       padding: 2px;
 
    }
-   .main .container1{
+
+   .main .container1 {
       background-color: transparent;
       height: inherit;
    }
-   .main .container1 .rightlinks{
+
+   .main .container1 .rightlinks {
       background-color: whitesmoke;
       float: none;
       width: 100%;
       border-left: none;
    }
-   .main .container1 .leftmain{
+
+   .main .container1 .leftmain {
       background-color: transparent;
       float: none;
       width: 100%;
       height: 400px;
-      
+
    }
+
    .footer .services {
       background-color: transparent;
       width: 349px;
@@ -817,26 +942,26 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
       margin: auto;
       margin-top: 30px;
    }
-   
+
    .footer .services ul li {
       list-style: none;
       margin-top: 10px;
       display: inline-flex;
       background-color: transparent;
-      margin-left:1px ;
-   
-   
+      margin-left: 1px;
+
+
    }
-   
+
    .footer .services ul li a {
       text-align: center;
       text-decoration: none;
       font-weight: bold;
       text-transform: capitalize;
       color: #fff;
-      font-size: 13px;  
+      font-size: 13px;
       margin-left: 4px;
-   
+
    }
 
 

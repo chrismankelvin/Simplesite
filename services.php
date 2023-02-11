@@ -4,7 +4,7 @@ require 'header.php'
 <div class="main">
     <div class="container">
         <div class="index_top_cont">
-            <h1>Book An Apointment</h1>
+            <h1>Book Apointment</h1>
             <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p>
         </div>
         <div class="apointment">
