@@ -130,7 +130,7 @@ menu bar
 .main .snd_rqst_container{
    width: 99.9%;
    height: 120vh;
-   background-color: #b1b1b1;
+   background-color: #fff;
    margin: auto;
 
 }
@@ -141,7 +141,7 @@ menu bar
 .main .container .index_top_cont{
    width: 100%;
    height: 90vh;
-   background-image: linear-gradient(#05050559,#05050559),url(./files/people_run.jpg);
+   background-image: linear-gradient(#050505d3,#050505d3),url(./files/people_run.jpg);
    background-position:center ;
    background-size: 100%;
    background-color: yellow;
@@ -199,7 +199,7 @@ menu bar
    font-size: 40px;
    font-weight: bolder;
    text-transform: uppercase;
-   color:#660707;
+   color:#ffffff;
 
 }
 .main .container p {
@@ -221,7 +221,7 @@ button {
    margin: 10px 10px 10px 12px;
    border: 0.2px solid  #f3bf3054;
    background-color:  #f3bf3054;
-   border-radius: 45px;
+   border-radius: 15px;
 }
 
 button a {
@@ -322,6 +322,11 @@ button:hover {
    text-transform: uppercase;
 
 }
+.footer .icons_links .content a{
+   margin-left: 7px;
+   text-decoration: none;
+   color: #727971;
+}
 .footer .signature{
    width: 100%;
    height: 30px;
@@ -406,16 +411,71 @@ button:hover {
 */
 
 .onebutton {
-   transform: translateX(120px);
+
+   background-color: tan;
 }
 
 .main .container .onebut{
    background-color: transparent;
    width: 420px;
    height: 70px;
-   margin: auto;
-   margin-top: 40px;
+   margin-top: 20px;
 }
+/* the appointment styling   the appointment styling  the appointment styling */
+/* the appointment styling   the appointment styling  the appointment styling */
+/* the appointment styling   the appointment styling  the appointment styling */
+
+.main .container .apointment{
+   background-color: transparent;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+}
+/* .main .container .apointment img {
+
+} */
+.main .container .apointment .apoint{
+   width: auto;
+   height: inherit;
+   background-color: transparent;
+}
+.main .container .apointment .apoint h3{
+   text-align: left;
+   padding-left: 10px;
+   font-size: 55px;
+   color: #660707;
+   margin-top: 70px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.main .container .apointment .apoint p{
+
+   padding: 10px;
+   text-align: left;
+}
+/* social tab social tab social tab social tab 
+social tab social tab social tab social tab /* social tab social tab social tab social tab 
+social tab social tab social tab social tab 
+social tab social tab social tab social tab  *//* social tab social tab social tab social tab 
+social tab social tab social tab social tab 
+social tab social tab social tab social tab  */
+.main .container .social_cont .cont1,
+.main .container .social_cont .cont2,
+.main .container .social_cont .cont3,
+.main .container .social_cont .cont4,
+.main .container .social_cont .cont5,
+.main .container .social_cont .cont6{
+   width: 97%;
+   height: 50vh;
+   margin: auto;
+   background-color: rgba(0, 0, 255, 0.507);
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   display: flex;
+}
+
+/* styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form
+styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form */
 /* styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form
 styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form */
 .holder {
@@ -431,7 +491,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    width: 520px;
    margin: auto;
    height: 90%;
-   background-color: rgb(255, 255, 255);
+   background-color: #b1b1b117;
    border-radius:10px ;
    box-shadow: 2px 2px 1.25px 3px  rgba(0, 0, 0, 0.062);
    margin-top: 90px;
@@ -441,7 +501,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 .holder form p {
    text-align: center;
    font-size: small;
-   color: #667067;
+   color: brown;
    font-weight: bold;
    padding-top: 20px;
    text-transform: uppercase;
@@ -487,6 +547,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    background-color: #221f6e33;
    border-radius: 5px;
    border: none;
+   font-size: small;
 
 }
 
