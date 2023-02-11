@@ -116,9 +116,17 @@ menu bar
 .main .container {
    width: 99.9%;
    height: inherit;
-   background-color: #ce0d0d;
+   background-color: #ffffff;
    margin: auto;
 }
+.main .container .apointment{
+   width: 100%;
+   height: 100vh;
+
+}
+/* .main .container .apointment h1{
+   margin-top: 80px;
+} */
 .main .snd_rqst_container{
    width: 99.9%;
    height: 120vh;
@@ -138,6 +146,12 @@ menu bar
    background-size: 100%;
    background-color: yellow;
    background-repeat: no-repeat;
+}
+.main .container .index_top_cont h1{
+   text-align: left;
+   font-size: 60px;
+   margin-left: 80px;
+   line-height: 250px;
 }
 .main .container .index_top_cont img{
    width: 500px;
@@ -483,15 +497,15 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 
 .main .container1 {
    width: 99.9%;
-   height: 600px;
-   background-color: burlywood;
+   height: 430vh;
+   background-color: rgb(255, 255, 255);
    margin: auto;
    padding-top: 40px;
 }
 .main .container1 h1{
    text-align: center;
    padding: 10px 0 10px 0;
-   font-size: 50px;
+   font-size: 20px;
    font-weight: bolder;
    text-transform: uppercase;
    color:#660707;
@@ -504,29 +518,40 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 
 .main .container1 .leftmain {
    width: 68%;
-   height: 550px;
+   height: inherit;
    float: left;
-   background-color: rgb(180, 180, 98);
+   background-color: rgb(255, 255, 255);
    
 }
-.main .leftmain .service1{
+.main .leftmain .service1,
+.main .leftmain .service2,
+.main .leftmain .service3,
+.main .leftmain .service4,
+.main .leftmain .service5{
    width: 95%;
-   height: 300px;
-   background-color: #667067;
+   height: 80vh;
+   background-color: #ffffff;
    margin: auto;
-
+   padding: 5px;
+   margin-bottom: 9px;
+   border-bottom: 7px solid burlywood;
+   box-shadow: 1px 1px 1.25px 1px  rgba(0, 0, 0, 0.158);
+}
+.main .leftmain .service1 h2{
+   text-transform: capitalize;
 }
 .main .container1 .rightlinks {
    width: 28%;
-   height: 500px;
+   height: 200vh;
    float: right;
-   background-color: thistle;
+   background-color: rgb(255, 255, 255);
    padding: 8px;
    border-left: 3px solid gray;
+   
 }
 
 .main .container1 .rightlinks h1 {
-   font-size: 30px;
+   font-size: 20px;
 
 }
 

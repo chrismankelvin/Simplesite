@@ -2,13 +2,38 @@
 require 'header.php'
 ?>
 <div class="main">
+    <div class="container">
+        <div class="index_top_cont">
+            <h1>Our Services</h1>
+            <p>Remember, you will suceed no matter the problems you face</p>
+        </div>
+
+    </div>
     <div class="container1">
         <div class="leftmain">
-        <h1>what we provide</h1>
-        <div class="service1">
 
-        </div>
-        <!-- <p>
+            <div class="service1">
+                <h2>Study Abroad</h2>
+
+            </div>
+            <div class="service2">
+                <h2>Immigration</h2>
+
+            </div>
+            <div class="service3">
+                <h2>Visa Issues</h2>
+
+            </div>
+            <div class="service4">
+                <h2>scholarship</h2>
+
+            </div>
+            <div class="service5">
+                <h2>Other service</h2>
+
+            </div>
+
+            <!-- <p>
             Here you will find easy tutorials, illustrated with images step by step, showing you detialed process
             of how things are done, if you find these processes hard to understand you can always watch comprehensive video
             guide of each tutorials <a href="https://www.youtube.com/@simpletutorialtube" class="clickhere">(watch videos)</a>. <br><br>
