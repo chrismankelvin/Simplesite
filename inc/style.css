@@ -138,19 +138,6 @@ menu bar
 /* .main .container .apointment h1{
    margin-top: 80px;
 } */
-.main .snd_rqst_container {
-   width: 99.9%;
-   height: 120vh;
-   background-color: #fff;
-   margin: auto;
-
-}
-
-.main .snd_rqst_container .holder form .error {
-   text-transform: capitalize;
-   color: #db1212;
-}
-
 .main .container .index_top_cont {
    width: 100%;
    height: 90vh;
@@ -277,7 +264,7 @@ button:hover {
 .footer .rec_info {
    width: 50%;
    height: 200px;
-   background-color: transparent;
+   background-color: tan;
    float: left;
    overflow: hidden;
 }
@@ -304,7 +291,7 @@ button:hover {
 .footer .quick_links {
    width: 50%;
    height: 200px;
-   background-color: transparent;
+   background-color: yellowgreen;
    float: right;
 }
 
@@ -344,21 +331,19 @@ button:hover {
 .footer .icons_links {
    width: 100%;
    height: 300px;
-   background-color: transparent;
+   background-color: indianred;
 }
 
 .footer .icons_links .content {
    width: 98%;
    height: 280px;
    margin: auto;
-   background-color: transparent;
-
+   background-color: floralwhite;
 }
 
 .footer .icons_links .content p {
    font-size: small;
    text-transform: uppercase;
-
 }
 
 .footer .icons_links .content a {
@@ -526,24 +511,41 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 /* styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form
 styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form */
 .holder {
-   width: 50%;
-   height: 500px;
+   width: 90%;
+   height: auto;
    margin: auto;
    border: none;
    border-radius: 5px;
-   padding-top: 10px;
+   background-color: #8b575717;
+   padding: 20px;
+
 }
 
 .holder form {
-   width: 520px;
+   width: 500px;
    margin: auto;
-   height: 90%;
-   background-color: #b1b1b117;
+   height: auto;
+   background-color: #9b9898ab;
    border-radius: 10px;
    box-shadow: 2px 2px 1.25px 3px rgba(0, 0, 0, 0.062);
-   margin-top: 90px;
    padding-left: 20px;
 }
+
+
+.main .snd_rqst_container {
+   width: 99.9%;
+   height: 120vh;
+   background-color: #ffffff;
+   margin: auto;
+   padding-top: 40px;
+
+}
+
+.main .snd_rqst_container .holder form .error {
+   text-transform: capitalize;
+   color: #db1212;
+}
+
 
 .holder form p {
    text-align: center;
@@ -587,9 +589,8 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 
 .holder form button {
    width: 34%;
-   height: 30px;
-   margin-top: 40px;
-   margin-left: 30%;
+   height: 35px;
+   margin-top: 30px;
    text-transform: uppercase;
    background-color: #221f6e33;
    border-radius: 5px;
@@ -775,7 +776,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
       font-size: 10px;
    }
 
-   .main .container .onebut {
+   .main .snd_rqst_container .onebut {
       background-color: transparent;
       width: 150px;
       height: 70px;
@@ -783,34 +784,48 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
       margin-top: 40px;
    }
 
-   .main .container .onebut .onebutton {
+   .main .snd_rqst_container .onebut .onebutton {
       transform: none;
       width: 90%;
       height: 40px;
       margin: auto;
    }
-
-   .main .container .holder {
-      width: 100%;
-      height: 450px;
+   .main .snd_rqst_container{
+      padding: none;
    }
 
-   .main .container .holder form fieldset {
-      float: left;
-      height: 60%;
+   .main .snd_rqst_container .holder {
+      width: 85%;
+      height: 450px;
+      padding-left: none;
+      background: #ffffffd3;
+      margin: auto;
+   }
+
+   .main .snd_rqst_container .holder form fieldset {
+
       line-height: 60px;
       border: none;
-      margin-right: 10px;
-      font-size: 12px;
+      margin-right: 0px;
+      font-size: 1px;
+      visibility: hidden;
+   
+   }
+   .main .snd_rqst_container .holder form{
+      width: 99%;
+
+      padding-left: 0;
    }
 
-   .main .container .holder form input {
-      width: 40%;
+   .main .snd_rqst_container .holder form input {
+      width: 80%;
       height: 30px;
       margin-top: 22px;
       border-radius: 5px;
       padding: 2px;
-
+   }
+   .main .snd_rqst_container .holder form button{
+      margin-left: calc(80%-34%);
    }
 
    .main .container1 {
