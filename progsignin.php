@@ -24,8 +24,8 @@ require 'header.php'
                         echo '<p class="error">Enter the link to your group</p>';
                     } elseif ($_GET['error'] == "invalidemail") {
                         echo '<p class="error">Invalid e-mail</p>';
-                    }elseif($_GET['error'] == "invalidename"){
-                        echo '<p class="error">Invalid name</p>';
+                    }elseif($_GET['error'] == "invalidenumber"){
+                        echo '<p class="error">Invalid Number</p>';
                 }
                 }
 
@@ -40,8 +40,8 @@ require 'header.php'
                 <input type="text" name="name" placeholder=" Full Name" autocomplete="on"> <br>
                 <input type="text" name="email" placeholder=" E-Mail Address" autocomplete="on"> <br>
                 <input type="text" name="country" placeholder=" Country Of residence" autocomplete="on"><br>
-                <input type="text" name="grpname" placeholder=" International Format" autocomplete="on"><br>
-                <input type="text" name="grplink" placeholder=" Eg: Undergraduate" autocomplete="on"><br>
+                <input type="text" name="grpname" placeholder=" International Format (+233242764213)" autocomplete="on"><br>
+                <input type="text" name="grplink" placeholder=" Eg: Undergraduate/Post-Graduate" autocomplete="on"><br>
                 <button name="submit" type="submit">
                     submit
                 </button>

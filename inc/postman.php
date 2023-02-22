@@ -29,8 +29,8 @@ if (isset($_POST['submit'])) {
 
         header("location: ../progsignin.php?error=invalidemail");
         exit();
-    } elseif (!preg_match("/^[a-zA-Z0-9]*$/", $name)) {
-        header("location: ../progsignin.php?error=invalidename");
+    } elseif (!preg_match('/^\+(?:[0-9] ?){6,14}[0-9]$/', $grpname)) {
+        header("location: ../progsignin.php?error=invalidenumber");
         exit();
     }else {
 
