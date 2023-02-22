@@ -39,9 +39,9 @@ require 'header.php'
                 </fieldset>
                 <input type="text" name="name" placeholder=" Full Name" autocomplete="on"> <br>
                 <input type="text" name="email" placeholder=" E-Mail Address" autocomplete="on"> <br>
-                <input type="text" name="country" placeholder=" Country Of residence" autocomplete="on"><br>
+                <input type="text" name="country" placeholder=" Country Of Residence" autocomplete="on"><br>
                 <input type="text" name="grpname" placeholder=" International Format (+233242764213)" autocomplete="on"><br>
-                <input type="text" name="grplink" placeholder=" Eg: Undergraduate/Post-Graduate" autocomplete="on"><br>
+                <input type="text" name="grplink" placeholder=" Eg: Undergraduate / Post-Graduate" autocomplete="on"><br>
                 <button name="submit" type="submit">
                     submit
                 </button>
