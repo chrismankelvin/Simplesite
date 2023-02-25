@@ -267,7 +267,7 @@ button:hover {
 .footer .rec_info {
    width: 50%;
    height: 200px;
-   background-color: tan;
+   background-color:  transparent;
    float: left;
    overflow: hidden;
 }
@@ -275,7 +275,7 @@ button:hover {
 .footer .rec_info .content {
    width: 95%;
    height: 190px;
-   background-color: transparent;
+   background-color: rgba(184, 174, 174, 0);
    margin: auto;
    margin-top: 5px;
 }
@@ -294,7 +294,7 @@ button:hover {
 .footer .quick_links {
    width: 50%;
    height: 200px;
-   background-color: yellowgreen;
+   background-color: transparent;
    float: right;
 }
 
@@ -334,14 +334,14 @@ button:hover {
 .footer .icons_links {
    width: 100%;
    height: 300px;
-   background-color: indianred;
+   background-color: rgba(184, 174, 174, 0.082);
 }
 
 .footer .icons_links .content {
    width: 98%;
    height: 280px;
    margin: auto;
-   background-color: floralwhite;
+   background-color: rgba(184, 174, 174, 0);
 }
 
 .footer .icons_links .content p {
@@ -449,6 +449,7 @@ button:hover {
    width: 420px;
    height: 70px;
    margin-top: 20px;
+
 }
 
 /* the appointment styling   the appointment styling  the appointment styling */
@@ -707,6 +708,53 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    color: #f3bf30;
    text-transform: capitalize;
 }
+/* image cards image cards image cards image cards image cards image cards image cards image cards
+image cards image cards image cards image cards image cards image cards image cards image cards
+image cards image cards image cards image cards image cards image cards image cards image cards
+image cards image cards image cards image cards image cards image cards image cards image cards */
+.index_down_cont{
+   width: calc(100%);
+   height: calc(400px+20px);
+   background-color: #ffffff;
+   overflow: scroll;
+}
+.index_down_cont .cards{
+   width: 127%;
+   height: inherit;
+   background-color: whitesmoke;
+   display: inline-flex;
+}
+.index_down_cont .cards .card1,
+.index_down_cont .cards .card2,
+.index_down_cont .cards .card3,
+.index_down_cont .cards .card4{
+   width: 400px;
+   height: 400px;
+   background-color: #ffffff;
+   border-radius: 5px;
+   margin-left: 20px;
+   margin-top: 20px;
+   box-shadow: 0px 0px 4.25px 3px  rgba(0, 0, 0, 0.158);
+}
+.index_down_cont .cards .card1 img,
+.index_down_cont .cards .card2 img,
+.index_down_cont .cards .card3 img,
+.index_down_cont .cards .card4 img{
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+}
+.index_down_cont .cards .card1 p,
+.index_down_cont .cards .card2 p,
+.index_down_cont .cards .card3 p,
+.index_down_cont .cards .card4 p{
+   text-align: center;
+   font-weight: bold;
+   margin-top: 30px;
+
+}
+
+
 
 @media screen and (max-width: 600px) {
 
@@ -790,10 +838,28 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
       background-color: transparent;
       width: 150px;
       height: 70px;
-      margin: auto;
+      margin-left: 50px;
       margin-top: 40px;
    }
+   .onebutton {
 
+      background-color: tan;
+      margin-left: 30% ;
+   }
+   
+   .main .container .onebut {
+      background-color: transparent;
+      width: 420px;
+      height: 70px;
+      margin-top: 20px;
+   
+   }
+   /* .main .container .index_top_cont .apoint .apointment .onebut{
+      margin-left: calc(150px);
+      background-color: #109fff;
+      width: 100%;
+      height: 300px;
+   } */
    .main .snd_rqst_container .onebut .onebutton {
       transform: none;
       width: 90%;
@@ -927,6 +993,27 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
       
       text-align: center;
    }
+   /* image cards image cards image cards
+   image cards image cards image cards
+   image cards image cards image cards
+   image cards image cards image cards */
+   .index_down_cont{
+      width: calc(100%);
+      overflow: hidden;
+   }
+   .index_down_cont .cards{
+      width: 100%;
+      padding: 20px;
+      display: inline;
+   }
+   .index_down_cont .cards .card1,
+.index_down_cont .cards .card2,
+.index_down_cont .cards .card3,
+.index_down_cont .cards .card4{
+   margin-left: 10px;
+  
+   
+}
 
 
 

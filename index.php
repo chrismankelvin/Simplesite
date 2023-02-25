@@ -52,9 +52,44 @@ require 'header.php'
 
     </div>
     <div class="index_down_cont">
-            Image Cards
+            <div class="cards">
+                <div class="card1">
+                    <a href="">
+                        <img src="./inc/files/1.jpg">
+                    </a>
+                    <p>
+                            Mr.Richard Meets Dr.Tim
+                        </p>
+                </div>
+                <div class="card2">
+                    <a href="">
+                    <img src="./inc/files/2.jpg">
+                    </a>
+                    <p>
+                           REC and  Dr.Tim
+                    </p>
+                </div>
+                <div class="card3">
+                    <a href="">
+                    <img src="./inc/files/1.jpg">
+                    </a>
+                    <p>
+                            subscribe
+                        </p>
+                </div>
+                <div class="card4">
+                <a href="">
+                    <img src="./inc/files/1.jpg">
+                    </a>
+                    <p>
+                            subscribe
+                        </p>
+                </div>
+
+            </div>
         </div>
 </div>
+<br><br><br>
 
 
 
