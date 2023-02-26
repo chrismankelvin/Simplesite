@@ -1,6 +1,8 @@
 * {
    margin: 0;
    padding: 0;
+   /* overflow-y: hidden; 
+   overflow-x: hidden; */
 }
 
 .header {
@@ -721,7 +723,7 @@ image cards image cards image cards image cards image cards image cards image ca
 .index_down_cont .cards{
    width: 127%;
    height: inherit;
-   background-color: whitesmoke;
+   background-color: rgb(241, 240, 240);
    display: inline-flex;
 }
 .index_down_cont .cards .card1,
@@ -734,16 +736,35 @@ image cards image cards image cards image cards image cards image cards image ca
    border-radius: 5px;
    margin-left: 20px;
    margin-top: 20px;
+   
+}
+.index_down_cont .cards .card1:hover,
+.index_down_cont .cards .card2:hover,
+.index_down_cont .cards .card3:hover,
+.index_down_cont .cards .card4:hover{
    box-shadow: 0px 0px 4.25px 3px  rgba(0, 0, 0, 0.158);
+   transition: 0.3s ease-in-out;
+
 }
 .index_down_cont .cards .card1 img,
 .index_down_cont .cards .card2 img,
 .index_down_cont .cards .card3 img,
 .index_down_cont .cards .card4 img{
    width: 100%;
+   height: 300px;
    border-top-right-radius: 5px;
    border-top-left-radius: 5px;
+
 }
+.index_down_cont .cards .card1 img:hover,
+.index_down_cont .cards .card2 img:hover,
+.index_down_cont .cards .card3 img:hover,
+.index_down_cont .cards .card4 img:hover{
+   transition: 0.3s ease-in-out;
+
+   opacity: 80%;
+}
+
 .index_down_cont .cards .card1 p,
 .index_down_cont .cards .card2 p,
 .index_down_cont .cards .card3 p,

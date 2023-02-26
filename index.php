@@ -63,7 +63,7 @@ require 'header.php'
                 </div>
                 <div class="card2">
                     <a href="">
-                    <img src="./inc/files/2.jpg">
+                    <img src="./inc/files/1 (5).jpg">
                     </a>
                     <p>
                            REC and  Dr.Tim
@@ -71,7 +71,7 @@ require 'header.php'
                 </div>
                 <div class="card3">
                     <a href="">
-                    <img src="./inc/files/1.jpg">
+                    <img src="./inc/files/1 (4).jpg">
                     </a>
                     <p>
                             subscribe
@@ -79,7 +79,7 @@ require 'header.php'
                 </div>
                 <div class="card4">
                 <a href="">
-                    <img src="./inc/files/1.jpg">
+                    <img src="./inc/files/1 (3).jpg">
                     </a>
                     <p>
                             subscribe
