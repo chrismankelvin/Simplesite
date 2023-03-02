@@ -716,14 +716,15 @@ image cards image cards image cards image cards image cards image cards image ca
 image cards image cards image cards image cards image cards image cards image cards image cards */
 .index_down_cont{
    width: calc(100%);
-   height: calc(400px+20px);
+   height: 435px;
    background-color: #ffffff;
    overflow: scroll;
+   overflow-y: hidden;
 }
 .index_down_cont .cards{
    width: 127%;
    height: inherit;
-   background-color: rgb(241, 240, 240);
+   background-color: rgb(255, 255, 255);
    display: inline-flex;
 }
 .index_down_cont .cards .card1,
@@ -735,14 +736,15 @@ image cards image cards image cards image cards image cards image cards image ca
    background-color: #ffffff;
    border-radius: 5px;
    margin-left: 20px;
-   margin-top: 20px;
+   margin-top: 10px;
+   box-shadow: 0px 0px 4.25px 3px  rgba(0, 0, 0, 0.158);
    
 }
 .index_down_cont .cards .card1:hover,
 .index_down_cont .cards .card2:hover,
 .index_down_cont .cards .card3:hover,
 .index_down_cont .cards .card4:hover{
-   box-shadow: 0px 0px 4.25px 3px  rgba(0, 0, 0, 0.158);
+  
    transition: 0.3s ease-in-out;
 
 }
