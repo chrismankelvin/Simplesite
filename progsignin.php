@@ -5,7 +5,7 @@ require 'header.php'
     <div class="snd_rqst_container">
         <div class="holder">
             <form action="./inc/postman.php" method="POST">
-                <p>Send A request</p>
+                <p>Apply</p>
                 <?php
                 if (isset($_GET['error'])) {
                     if ($_GET['error'] == "emptyfields") {

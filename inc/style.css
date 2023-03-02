@@ -1,33 +1,23 @@
 * {
    margin: 0;
    padding: 0;
-   /* overflow-y: hidden; 
-   overflow-x: hidden; */
 }
 
 .header {
    background-color: rgb(255, 255, 255);
    height: 40px;
-
+   display: flex;
 }
 
 .header nav {
-   width: 100%;
+   width: calc(100% - 180px);
    height: 40px;
-   background-color: #ffffffc4;
+   background-color: #a19292c4;
    display: inline-flex;
-   border-bottom: 2px solid #221f6e2a;
-
 }
 
-/* 
-menu bar menu bar menu bar                                                 
-menu bar menu bar menu bar                                                   
-menu bar menu bar menu bar                                                  
-menu bar menu bar menu bar                                                   
-menu bar menu bar menu bar                                                     
- */
- 
+/*                         menu bar menu bar menu bar                               */
+
 
 .header .btn_toggle_nav {
    width: 60px;
@@ -38,6 +28,22 @@ menu bar menu bar menu bar
    background-size: 40%;
    background-position: center;
    cursor: pointer;
+}
+ .header .side{
+   width: 180px;
+   height: 40px;
+   background-color: #a19292c4;
+} 
+.header .side .top-btn{
+   width: 150px;
+   padding: none;
+   margin-top: 5px;
+   height: 30px;text-align: center;
+   font-size: small;
+   color: white;
+   text-transform: capitalize;
+
+
 }
 
 .nav_sidebar {
@@ -57,15 +63,11 @@ menu bar menu bar menu bar
    padding-top: 15px;
    overflow: hidden;
    visibility: hidden;
-
-
 }
 
 .nav_sidebar ul li {
    line-height: 60px;
    list-style: none;
-
-
 }
 
 .nav_sidebar ul li a,
@@ -84,13 +86,7 @@ menu bar menu bar menu bar
 
 }
 
-/* 
-menu bar
-menu bar
-menu bar
-menu bar
-menu bar
- */
+                                                      /* menu bar*/
 .header nav ul {
    list-style-type: none;
    margin-left: 1px;
@@ -101,7 +97,6 @@ menu bar
    line-height: 40px;
    display: inline-block;
    margin-left: 30px;
-
 }
 
 .header nav ul li a {
@@ -120,6 +115,7 @@ menu bar
 
 }
 
+/* index */
 .main {
    background-color: #ffffff;
    width: 100%;
@@ -128,7 +124,7 @@ menu bar
 
 
 .main .container {
-   width: 99.9%;
+   width: 100%;
    height: inherit;
    background-color: #ffffff;
    margin: auto;
@@ -140,43 +136,43 @@ menu bar
 
 }
 
-/* .main .container .apointment h1{
-   margin-top: 80px;
-} */
 .main .container .index_top_cont {
    width: 100%;
    height: 90vh;
    background-image: linear-gradient(#050505d3, #050505d3), url(./files/people_run.jpg);
    background-position: center;
    background-size: 100%;
-   background-color: yellow;
+   background-color: rgb(255, 255, 255);
    background-repeat: no-repeat;
+   display: flex;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .main .container .index_top_cont h1 {
    text-align: left;
-   font-size: 60px;
-   margin-left: 80px;
-   line-height: 250px;
+   font-size: 32px;
+   margin-left: 0;
+   line-height: 500px;
+   color: white;
 }
 
 .main .container .index_top_cont img {
    width: 500px;
    height: 500px;
-   margin-left: 50px;
+   margin-left: 0;
 }
 
-.main .container .index_top_cont p {
+/* .main .container .index_top_cont p {
+   visibility: hidden;
    color: #ffffff;
    text-align: left;
    margin-left: 90px;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+} */
 
 .main .container .index_middle_cont {
    width: 100%;
-   height: 100vh;
+   height: 110vh;
    background-color: rgb(255, 255, 255);
    display: flex;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -206,6 +202,15 @@ menu bar
    margin-top: 30px;
 
 }
+
+.main .container .index_down_cont {
+   width: 100%;
+   height: 435px;
+   background-color: #e6e3e3;
+}
+
+
+/* other */
 
 
 .main .container h1 {
@@ -237,8 +242,8 @@ button {
    width: 40%;
    height: 49px;
    margin: 10px 10px 10px 12px;
-   border: 0.2px solid #f3bf3054;
-   background-color: #f3bf3054;
+   border: none;
+   background-image: linear-gradient(to right, #593bdf, #109fff);
    border-radius: 15px;
 }
 
@@ -246,17 +251,19 @@ button a {
    text-decoration: none;
    font-size: 14px;
    text-transform: uppercase;
-   color: #660707;
+   color: #ffffff;
    font-weight: bold;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 button:hover {
-   background-color: #f3bf30;
-   border: 0.2px solid #f3bf30;
+   background-image: linear-gradient(to right, #6745ff, #1aa3ff);
    transition: 0.5s ease;
-   box-shadow: 2px 3px 7px 4px rgba(0, 0, 0, 0.158);
 }
+
+/* footer footer */
+
+
 
 .footer {
    background-color: rgb(245, 246, 247);
@@ -269,7 +276,7 @@ button:hover {
 .footer .rec_info {
    width: 50%;
    height: 200px;
-   background-color:  transparent;
+   background-color: transparent;
    float: left;
    overflow: hidden;
 }
@@ -289,7 +296,6 @@ button:hover {
 
 .footer .rec_info .content p {
    font-size: small;
-
 }
 
 
@@ -377,74 +383,8 @@ button:hover {
 
 
 
-/*
-.footer p {
-   color: black;
-   font-weight: bold;
-   font-size: 16px;
-   text-align: center;
-}
-.footer .icons {
-   width: 250px;
-   height: 60px;
-   background-color: navy;
-   padding: 25px 10px 5px;
-   margin: auto;
-
-}
-
-.footer .icons ul li {
-   list-style: none;
-   display: inline-flex;
-   margin-left: 20px;
-}
-
-.footer .icons ul li svg:hover {
-   box-shadow: 2px 3px 7px 4px rgba(0, 0, 0, 0.158);
-}
-.footer .icons ul .youtubeicon{
-   transform: translateY(7px);
-}
-
-.footer .services {
-   background-color: burlywood;
-   width: 400px;
-   height: 30px;
-   padding: 1px 10px 5px;
-   margin: auto;
-   margin-top: 30px;
-}
-
-.footer .services ul li {
-   list-style: none;
-   margin-top: 10px;
-   display: inline-flex;
-   background-color: transparent;
-   border-left:2px solid #660707 ;
-   margin-left:20px ;
 
 
-}
-.footer .services ul li a {
-   text-align: center;
-   text-decoration: none;
-   font-weight: bold;
-   text-transform: capitalize;
-   color: #fff;
-   font-size: 13px;  
-   margin-left: 4px;
-
-}
-.footer .services ul li a:hover{
-   color: #f3bf30;
-   transition: 0.3s;
-}
-*/
-
-.onebutton {
-
-   background-color: tan;
-}
 
 .main .container .onebut {
    background-color: transparent;
@@ -465,9 +405,6 @@ button:hover {
    display: flex;
 }
 
-/* .main .container .apointment img {
-
-} */
 .main .container .apointment .apoint {
    width: auto;
    height: inherit;
@@ -490,12 +427,7 @@ button:hover {
 }
 
 /* social tab social tab social tab social tab 
-social tab social tab social tab social tab /* social tab social tab social tab social tab 
-social tab social tab social tab social tab 
-social tab social tab social tab social tab  */
-/* social tab social tab social tab social tab 
-social tab social tab social tab social tab 
-social tab social tab social tab social tab  */
+
 .main .container .social_cont .cont1,
 .main .container .social_cont .cont2,
 .main .container .social_cont .cont3,
@@ -514,8 +446,8 @@ social tab social tab social tab social tab  */
 
 /* styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form
 styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form */
-/* styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form
-styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form */
+/* styling of the formstyling of the formstyling of the formstyling of the formstyling of the formstyling of the form*/
+
 .holder {
    width: 90%;
    height: auto;
@@ -602,7 +534,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    height: 35px;
    margin-top: 30px;
    text-transform: uppercase;
-   background-image: linear-gradient(to right,#6745ff,#1aa3ff);
+   background-image: linear-gradient(to right, #6745ff, #1aa3ff);
    border-radius: 5px;
    border: none;
    font-size: 12px;
@@ -613,7 +545,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 }
 
 .holder form button:hover {
-   background-image: linear-gradient(to right,#593bdf,#109fff);
+   background-image: linear-gradient(to right, #593bdf, #109fff);
 
 }
 
@@ -710,318 +642,269 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    color: #f3bf30;
    text-transform: capitalize;
 }
-/* image cards image cards image cards image cards image cards image cards image cards image cards
-image cards image cards image cards image cards image cards image cards image cards image cards
-image cards image cards image cards image cards image cards image cards image cards image cards
-image cards image cards image cards image cards image cards image cards image cards image cards */
-.index_down_cont{
-   width: calc(100%);
-   height: 435px;
-   background-color: #ffffff;
-   overflow: scroll;
-   overflow-y: hidden;
-}
-.index_down_cont .cards{
-   width: 127%;
-   height: inherit;
-   background-color: rgb(255, 255, 255);
-   display: inline-flex;
-}
-.index_down_cont .cards .card1,
-.index_down_cont .cards .card2,
-.index_down_cont .cards .card3,
-.index_down_cont .cards .card4{
-   width: 400px;
-   height: 400px;
-   background-color: #ffffff;
-   border-radius: 5px;
-   margin-left: 20px;
-   margin-top: 10px;
-   box-shadow: 0px 0px 4.25px 3px  rgba(0, 0, 0, 0.158);
-   
-}
-.index_down_cont .cards .card1:hover,
-.index_down_cont .cards .card2:hover,
-.index_down_cont .cards .card3:hover,
-.index_down_cont .cards .card4:hover{
-  
-   transition: 0.3s ease-in-out;
-
-}
-.index_down_cont .cards .card1 img,
-.index_down_cont .cards .card2 img,
-.index_down_cont .cards .card3 img,
-.index_down_cont .cards .card4 img{
-   width: 100%;
-   height: 300px;
-   border-top-right-radius: 5px;
-   border-top-left-radius: 5px;
-
-}
-.index_down_cont .cards .card1 img:hover,
-.index_down_cont .cards .card2 img:hover,
-.index_down_cont .cards .card3 img:hover,
-.index_down_cont .cards .card4 img:hover{
-   transition: 0.3s ease-in-out;
-
-   opacity: 80%;
-}
-
-.index_down_cont .cards .card1 p,
-.index_down_cont .cards .card2 p,
-.index_down_cont .cards .card3 p,
-.index_down_cont .cards .card4 p{
-   text-align: center;
-   font-weight: bold;
-   margin-top: 30px;
-
-}
 
 
 
-@media screen and (max-width: 600px) {
+
+   @media screen and (max-width: 600px) {
 
 
-   .header nav ul li {
-      list-style: none;
-      line-height: 40px;
-      display: inline-block;
-      margin-left: 30px;
-   }
+      .header nav ul li {
+         list-style: none;
+         line-height: 40px;
+         display: inline-block;
+         margin-left: 30px;
+      }
 
 
-   .header nav ul li a {
-      text-transform: uppercase;
-      text-decoration: none;
-      font-size: 14px;
-   }
+      .header nav ul li a {
+         text-transform: uppercase;
+         text-decoration: none;
+         font-size: 14px;
+      }
 
-   .main .container h1 {
-      text-align: center;
-      padding: 0px 0 20px 0;
-      font-size: 30px;
-   }
-   .nav_sidebar{
-      height: calc(100vh - 40px);
+      .main .container h1 {
+         text-align: center;
+         padding: 0px 0 20px 0;
+         font-size: 30px;
+      }
 
-   }
+      .nav_sidebar {
+         height: calc(100vh - 40px);
 
-   .main .container p {
-      text-align: center;
-      font-size: 15px;
-   }
+      }
 
-   .main .container .index_top_cont {
-      background-size: 400%;
+      .main .container p {
+         text-align: center;
+         font-size: 15px;
+      }
 
-   }
+      .main .container .index_top_cont {
+         background-size: 400%;
 
-   .main .container .index_top_cont img {
-      width: 400px;
-      height: 400px;
-      margin-left: 0;
-      margin-top: 90px;
-   }
+      }
 
-   .main .container .index_top_cont p {
-      margin-left: 30px;
-   }
+      .main .container .index_top_cont img {
+         width: 400px;
+         height: 400px;
+         margin-left: 0;
+         margin-top: 90px;
+      }
 
-   .main .container .index_middle_cont img {
-      width: 90%;
-      height: inherit;
-      margin: 10px 10px 10px 20px;
+      .main .container .index_top_cont p {
+         margin-left: 30px;
+      }
+
+      .main .container .index_middle_cont img {
+         width: 90%;
+         height: inherit;
+         margin: 10px 10px 10px 20px;
 
 
-   }
+      }
 
-   .main .container .index_middle_cont {
-      display: inline-block;
-      height: inherit;
+      .main .container .index_middle_cont {
+         display: inline-block;
+         height: inherit;
 
-   }
-   .main .container .index_middle_cont .p .p1,
-.main .container .index_middle_cont .p .p2,
-.main .container .index_middle_cont .p .p3,
-.main .container .index_middle_cont .p .p4 {
-   padding-bottom: 10px;
-   margin-top: 10px;
-}
-   .main .container .buts {
-      width: 340px;
-      height: 70px;
-   }
+      }
 
-   button a {
-      text-decoration: none;
-      font-size: 10px;
-   }
+      .main .container .index_middle_cont .p .p1,
+      .main .container .index_middle_cont .p .p2,
+      .main .container .index_middle_cont .p .p3,
+      .main .container .index_middle_cont .p .p4 {
+         padding-bottom: 10px;
+         margin-top: 10px;
+      }
 
-   .main .snd_rqst_container .onebut {
-      background-color: transparent;
-      width: 150px;
-      height: 70px;
-      margin-left: 50px;
-      margin-top: 40px;
-   }
-   .onebutton {
+      .main .container .buts {
+         width: 340px;
+         height: 70px;
+      }
 
-      background-color: tan;
-      margin-left: 30% ;
-   }
-   
-   .main .container .onebut {
-      background-color: transparent;
-      width: 420px;
-      height: 70px;
-      margin-top: 20px;
-   
-   }
-   /* .main .container .index_top_cont .apoint .apointment .onebut{
+      button a {
+         text-decoration: none;
+         font-size: 10px;
+      }
+
+      .main .snd_rqst_container .onebut {
+         background-color: transparent;
+         width: 150px;
+         height: 70px;
+         margin-left: 50px;
+         margin-top: 40px;
+      }
+
+      .onebutton {
+
+         background-color: tan;
+         margin-left: 30%;
+      }
+
+      .main .container .onebut {
+         background-color: transparent;
+         width: 420px;
+         height: 70px;
+         margin-top: 20px;
+
+      }
+
+      /* .main .container .index_top_cont .apoint .apointment .onebut{
       margin-left: calc(150px);
       background-color: #109fff;
       width: 100%;
       height: 300px;
    } */
-   .main .snd_rqst_container .onebut .onebutton {
-      transform: none;
-      width: 90%;
-      height: 40px;
-      margin: auto;
-   }
-   .main .snd_rqst_container{
-      padding: none;
-   }
+      .main .snd_rqst_container .onebut .onebutton {
+         transform: none;
+         width: 90%;
+         height: 40px;
+         margin: auto;
+      }
 
-   .main .snd_rqst_container .holder {
-      width: 85%;
-      height: 450px;
-      padding-left: none;
-      background: #e4e4e4d3;
-      margin: auto;
-   }
+      .main .snd_rqst_container {
+         padding: none;
+      }
 
-   .main .snd_rqst_container .holder form fieldset {
+      .main .snd_rqst_container .holder {
+         width: 85%;
+         height: 450px;
+         padding-left: none;
+         background: #e4e4e4d3;
+         margin: auto;
+      }
 
-      line-height: 60px;
-      border: none;
-      margin-right: 0px;
-      font-size: 1px;
-      visibility: hidden;
-   
-   }
-   .main .snd_rqst_container .holder form{
-      width: 99%;
-      padding-left: 0;
-   }
+      .main .snd_rqst_container .holder form fieldset {
 
-   .main .snd_rqst_container .holder form input {
-      width: 80%;
-      height: 30px;
-      margin-top: 22px;
-      border-radius: 0.1px;
-      border: none;
-      border-bottom: 1px solid #109fff;
-      padding: 2px;
-      box-shadow: none;
-   }
-   .main .snd_rqst_container .holder form input:focus{
-      background-color: transparent;
+         line-height: 60px;
+         border: none;
+         margin-right: 0px;
+         font-size: 1px;
+         visibility: hidden;
 
-   }
-   .main .snd_rqst_container .holder form button{
-      margin-left: 23%;
-      border-radius: 40px;
-   }
+      }
 
-   .main .container1 {
-      background-color: transparent;
-      height: inherit;
-      width: 90%;
-      margin: auto;
-      padding-top: 40px;
+      .main .snd_rqst_container .holder form {
+         width: 99%;
+         padding-left: 0;
+      }
 
-   }
+      .main .snd_rqst_container .holder form input {
+         width: 80%;
+         height: 30px;
+         margin-top: 22px;
+         border-radius: 0.1px;
+         border: none;
+         border-bottom: 1px solid #109fff;
+         padding: 2px;
+         box-shadow: none;
+      }
 
-   .main .container1 .leftmain {
-      float: none;
-      width: 100%;
-      height: inherit;
-   }
+      .main .snd_rqst_container .holder form input:focus {
+         background-color: transparent;
 
-   .main .container1 .rightlinks {
-      float: none;
-      width: 95%;
-      height: 400px;
-      padding: none;
-      border-left: none;
-   }
+      }
 
-   .main .container1 .rightlinks h1 {
-      font-size: 21px;
-      text-decoration: underline;
-   }
+      .main .snd_rqst_container .holder form button {
+         margin-left: 23%;
+         border-radius: 40px;
+      }
 
-   .footer .services {
-      background-color: transparent;
-      width: 90%;
-      height: 30px;
-      padding: 1px 10px 5px;
-      margin: auto;
-      margin-top: 30px;
-   }
+      .main .container1 {
+         background-color: transparent;
+         height: inherit;
+         width: 90%;
+         margin: auto;
+         padding-top: 40px;
 
-   .footer .services ul li {
-      list-style: none;
-      margin-top: 10px;
-      display: inline-flex;
-      background-color: transparent;
-      border-left: 2px solid #660707;
-      ;
-      margin-left: 5px;
+      }
+
+      .main .container1 .leftmain {
+         float: none;
+         width: 100%;
+         height: inherit;
+      }
+
+      .main .container1 .rightlinks {
+         float: none;
+         width: 95%;
+         height: 400px;
+         padding: none;
+         border-left: none;
+      }
+
+      .main .container1 .rightlinks h1 {
+         font-size: 21px;
+         text-decoration: underline;
+      }
+
+      .footer .services {
+         background-color: transparent;
+         width: 90%;
+         height: 30px;
+         padding: 1px 10px 5px;
+         margin: auto;
+         margin-top: 30px;
+      }
+
+      .footer .services ul li {
+         list-style: none;
+         margin-top: 10px;
+         display: inline-flex;
+         background-color: transparent;
+         border-left: 2px solid #660707;
+         ;
+         margin-left: 5px;
 
 
-   }
+      }
 
-   .footer .services ul li a {
-      text-align: center;
-      text-decoration: none;
-      font-weight: bold;
-      text-transform: capitalize;
-      color: #fff;
-      font-size: 13px;
-      margin-left: 4px;
+      .footer .services ul li a {
+         text-align: center;
+         text-decoration: none;
+         font-weight: bold;
+         text-transform: capitalize;
+         color: #fff;
+         font-size: 13px;
+         margin-left: 4px;
 
-   }
-   .main .container .index_top_cont h1{
-      color: rgb(255, 255, 255);
-      font-size: 30px;
-      line-height: 500px;
+      }
 
-   }
-   .main .container1{
-      background-color: rgb(255, 255, 255);
-      height: inherit;
-      padding-top: 10px;
-      width: 99.999999%;
-   }
-   .main .container .apointment{
-      display: inline;
-   }
-   .main .container .apointment img{
-      width: 100%;
-      height: 340px;
-   }.main .container .apointment .apoint h3,
-   .main .container .apointment .apoint p{
-      
-      text-align: center;
-   }
-   /* image cards image cards image cards
+      .main .container .index_top_cont h1 {
+         color: rgb(255, 255, 255);
+         font-size: 30px;
+         line-height: 500px;
+
+      }
+
+      .main .container1 {
+         background-color: rgb(255, 255, 255);
+         height: inherit;
+         padding-top: 10px;
+         width: 99.999999%;
+      }
+
+      .main .container .apointment {
+         display: inline;
+      }
+
+      .main .container .apointment img {
+         width: 100%;
+         height: 340px;
+      }
+
+      .main .container .apointment .apoint h3,
+      .main .container .apointment .apoint p {
+
+         text-align: center;
+      }
+
+      /* image cards image cards image cards
    image cards image cards image cards
    image cards image cards image cards
    image cards image cards image cards */
-   .index_down_cont{
-      width: calc(100%);
+      /* .index_down_cont{ */
+      /* width: calc(100%);
       overflow: hidden;
    }
    .index_down_cont .cards{
@@ -1034,79 +917,78 @@ image cards image cards image cards image cards image cards image cards image ca
 .index_down_cont .cards .card3,
 .index_down_cont .cards .card4{
    margin-left: 10px;
-  
-   
-}
+
+} */
 
 
 
 
-
-
-}
-
-@media screen and (width: 768px) {
-   .main .container .holder form input {
-      width: 40%;
-      height: 30px;
-      margin-top: 22px;
-      background-color: rgba(255, 255, 255, 0.158);
-
-      border-radius: 5px;
-      padding: 2px;
-
-   }
-
-   .main .container1 {
-      background-color: transparent;
-      height: inherit;
-   }
-
-   .main .container1 .rightlinks {
-      background-color: whitesmoke;
-      float: none;
-      width: 100%;
-      border-left: none;
-   }
-
-   .main .container1 .leftmain {
-      background-color: transparent;
-      float: none;
-      width: 100%;
-      height: 400px;
-
-   }
-
-   .footer .services {
-      background-color: transparent;
-      width: 349px;
-      height: 30px;
-      padding: 1px 10px 5px;
-      margin: auto;
-      margin-top: 30px;
-   }
-
-   .footer .services ul li {
-      list-style: none;
-      margin-top: 10px;
-      display: inline-flex;
-      background-color: transparent;
-      margin-left: 1px;
 
 
    }
 
-   .footer .services ul li a {
-      text-align: center;
-      text-decoration: none;
-      font-weight: bold;
-      text-transform: capitalize;
-      color: #fff;
-      font-size: 13px;
-      margin-left: 4px;
+   @media screen and (width: 768px) {
+      .main .container .holder form input {
+         width: 40%;
+         height: 30px;
+         margin-top: 22px;
+         background-color: rgba(255, 255, 255, 0.158);
+
+         border-radius: 5px;
+         padding: 2px;
+
+      }
+
+      .main .container1 {
+         background-color: transparent;
+         height: inherit;
+      }
+
+      .main .container1 .rightlinks {
+         background-color: whitesmoke;
+         float: none;
+         width: 100%;
+         border-left: none;
+      }
+
+      .main .container1 .leftmain {
+         background-color: transparent;
+         float: none;
+         width: 100%;
+         height: 400px;
+
+      }
+
+      .footer .services {
+         background-color: transparent;
+         width: 349px;
+         height: 30px;
+         padding: 1px 10px 5px;
+         margin: auto;
+         margin-top: 30px;
+      }
+
+      .footer .services ul li {
+         list-style: none;
+         margin-top: 10px;
+         display: inline-flex;
+         background-color: transparent;
+         margin-left: 1px;
+
+
+      }
+
+      .footer .services ul li a {
+         text-align: center;
+         text-decoration: none;
+         font-weight: bold;
+         text-transform: capitalize;
+         color: #fff;
+         font-size: 13px;
+         margin-left: 4px;
+
+      }
+
+
 
    }
-
-
-
-}

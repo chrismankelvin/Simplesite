@@ -12,11 +12,11 @@ require 'header.php'
             <div class="apoint">
 
                 <h3>
-                    Book <br> Apointment
+                    Shedule <br> Apointment
 
                 </h3>
 
-                <p>click on the button below to book an appointment with REC 
+                <p>Click on the button below to book an appointment with REC 
                     we will create a special time for you to listen to you,
                     Please understand that by filling the form 
                     you will join a quew keep calm as we process your Apointment
@@ -24,7 +24,10 @@ require 'header.php'
                 </p>
                 <div class="onebut">
             <button class="onebutton">
-                <a href="./progsignin.php">Get Started</a>
+                <a href="./progsignin.php">
+                    
+                    Get Started
+                </a>
             </button>
         </div>
             </div>

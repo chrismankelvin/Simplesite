@@ -7,7 +7,8 @@ require 'header.php'
     <div class="container">
         <div class="index_top_cont">
             <img src="./inc/files/logo.png" >
-            <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p>
+            <h1>welcome to richard educational consult</h1>
+            <!-- <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p> -->
         </div>
 
         <div class="index_middle_cont">
@@ -33,63 +34,18 @@ require 'header.php'
                 </div>
             </div>
         </div>
-        
-
-        <!--
-        <h1>Richard Educational Consult</h1>
-        <p>Richard Educational Consult is an educational consulting firm that offers a wide range of services 
-        to students, parents, and educational institutions. They specialize in providing guidance and support to 
-        students of all ages who are seeking to further their education, whether it be at the primary, secondary, or tertiary level.
-        </p>
-        <div class="buts">
-            <button>
-                <a href="https://www.youtube.com/@simpletutorialstube">watch interviews</a>
-            </button>
-            <button>
-                <a href="./tutorials.php">apply for free</a>
-            </button>
--->
-
-    </div>
-    <div class="index_down_cont">
+        <div class="index_down_cont">
             <div class="cards">
-                <div class="card1">
-                    <a href="">
-                        <img src="./inc/files/1.jpg">
-                    </a>
-                    <p>
-                            Mr.Richard Meets Dr.Tim
-                        </p>
-                </div>
-                <div class="card2">
-                    <a href="">
-                    <img src="./inc/files/1 (5).jpg">
-                    </a>
-                    <p>
-                           REC and  Dr.Tim
-                    </p>
-                </div>
-                <div class="card3">
-                    <a href="">
-                    <img src="./inc/files/1 (4).jpg">
-                    </a>
-                    <p>
-                            subscribe
-                        </p>
-                </div>
-                <div class="card4">
-                <a href="">
-                    <img src="./inc/files/1 (3).jpg">
-                    </a>
-                    <p>
-                            subscribe
-                        </p>
-                </div>
+
 
             </div>
         </div>
+
+
+
+    </div>
+    
 </div>
-<br><br><br>
 
 
 
