@@ -5,14 +5,14 @@
 
 .header {
    background-color: rgb(255, 255, 255);
-   height: 40px;
+   height: 60px;
    display: flex;
 }
 
 .header nav {
    width: calc(100% - 180px);
-   height: 40px;
-   background-color: #a19292c4;
+   height: 60px;
+   background-color: #ffffffc4;
    display: inline-flex;
 }
 
@@ -20,25 +20,32 @@
 
 
 .header .btn_toggle_nav {
-   width: 60px;
+   width: 70px;
    height: 100%;
-   background-color: #221f6e2a;
+   background-color: #ffffff2a;
    background-image: url(./files/menu.png);
    background-repeat: no-repeat;
    background-size: 40%;
    background-position: center;
    cursor: pointer;
 }
+.header .btn_toggle_nav:hover{
+   background-size: 42%;
+   transition: all 0.1s ease-in-out;
+   background-color: #24218b41 ;
+}
  .header .side{
    width: 180px;
-   height: 40px;
-   background-color: #a19292c4;
+   height: 50px;
+   background-color: #ffffffc4;
+   margin-top: 5px;
 } 
 .header .side .top-btn{
    width: 150px;
    padding: none;
    margin-top: 5px;
-   height: 30px;text-align: center;
+   height: 40px;
+   text-align: center;
    font-size: small;
    color: white;
    text-transform: capitalize;
@@ -52,7 +59,7 @@
    bottom: 0;
    width: 0px;
    padding: 0 5px;
-   height: calc(100vh - 40px);
+   height: calc(100vh - 60px);
    background-color: #24218bf6;
    z-index: 1000;
    transition: all 0.4s ease-in-out;
@@ -94,7 +101,7 @@
 
 .header nav ul li {
    list-style: none;
-   line-height: 40px;
+   line-height: 60px;
    display: inline-block;
    margin-left: 30px;
 }
@@ -111,7 +118,7 @@
 .header nav ul li a:hover {
    color: #221f6efa;
    transition: 0.2s ease-in-out;
-   font-size: 15.7px;
+   font-size: 15.3px;
 
 }
 
@@ -148,12 +155,19 @@
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.main .container .index_top_cont h1 {
+.main .container .index_top_cont .mainh1 {
    text-align: left;
    font-size: 32px;
    margin-left: 0;
    line-height: 500px;
    color: white;
+}
+.main .container .index_top_cont .h1{
+   text-align: right;
+   font-size: 62px;
+   line-height: 200px;
+   color: white;
+   margin: auto;
 }
 
 .main .container .index_top_cont img {
@@ -480,6 +494,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    background-color: #ffffff;
    margin: auto;
    padding-top: 40px;
+   border-top: 2px solid #24218bf6 ;
 
 }
 

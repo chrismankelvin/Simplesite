@@ -4,8 +4,8 @@ require 'header.php'
 <div class="main">
     <div class="container">
         <div class="index_top_cont">
-            <h1>Our Services</h1>
-            <p>Remember, you will suceed no matter the problems you face</p>
+            <h1 class="h1">Our Services</h1>
+            <!-- <p>Remember, you will suceed no matter the problems you face</p> -->
         </div>
 
     </div>
