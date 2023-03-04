@@ -12,7 +12,7 @@ require 'header.php'
             <div class="apoint">
 
                 <h3>
-                    Shedule <br> Apointment
+                    Shedule Apointment
 
                 </h3>
 
@@ -23,12 +23,11 @@ require 'header.php'
 
                 </p>
                 <div class="onebut">
+                    <a href="./progsignin.php">
                     <button class="onebutton">
-                        <a href="./progsignin.php">
-
-                            Get Started
-                        </a>
+                            Get Started                        
                     </button>
+                </a>
                 </div>
             </div>
 
