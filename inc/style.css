@@ -346,16 +346,16 @@ button:hover {
 
 .footer .footer-icons {
    width: 100%;
-   height: 120px;
+   height: 100px;
    background-color: aliceblue;
    padding-top: 10px;
+   display: flex;
 
 }
 .footer .footer-icons .icons {
-   width: 98%;
+   width: 80%;
    height: 90px;
-   margin: auto;
-   background-color: aliceblue;
+   background-color:aliceblue;
 }
 
 .footer .footer-icons .icons p {
@@ -376,6 +376,23 @@ button:hover {
    color: #f0a10fd3;
    transition: all 0.3s ease-in-out;
 }
+.footer .footer-icons .icons-support {
+   width: 20%;
+   height: 70px;
+   padding-top: 20px;
+   background-color: #14131300;
+}
+.footer .footer-icons .icons-support a{
+   margin-left: 60px;  
+}
+.footer .footer-icons .icons-support button {
+   text-transform: uppercase; 
+   color: white;
+   height: 40px;
+
+}
+
+
 
 
 
