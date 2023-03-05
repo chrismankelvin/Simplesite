@@ -6,9 +6,17 @@ require 'header.php'
 
     <div class="container">
         <div class="index_top_cont">
-            <img src="./inc/files/logo.png">
-            <h1 class="mainh1">welcome to richard educational consult</h1>
-            <!-- <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p> -->
+            <div>
+                <img src="./inc/files/logo.png">
+                <h1 class="mainh1">
+                    welcome to Richard educational consult
+
+                </h1>
+                <!-- <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p> -->
+
+            </div>
+
+
         </div>
 
         <div class="index_middle_cont">

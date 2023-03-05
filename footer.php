@@ -1,24 +1,13 @@
 <div class="footer">
     <div class="footer-content">
         <div class="footer-img">
-            <img src="./inc/files/footer-logo.png" alt="">
-
-
-            <!-- <div class="content">
-                <p1>@ REC</p1>
-                <p>
-                    <strong>Richard Educational Consult</strong> is an educational consulting firm that offers a wide range of services to students, parents, and educational institutions.
-                    They specialize in providing guidance and support to students of all ages who are seeking to further their education overseas, specialised for tertiary level only.
-                </p>
-            </div> -->
-
-
+            <img src="./inc/files/footer-logo.png" >
         </div>
         <div class="footer-links">
             <div class="links">
                 <!-- <p>Quick Links</p> -->
                 <ul>
-                    <li><a href="">about us</a></li>
+                    <li><a href="./about.php">about us</a></li>
                     <li><a href="">read more</a></li>
                     <li><a href="">terms</a></li>
                     <li><a href="">policies</a></li>
@@ -46,12 +35,12 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="1.9em" height="2.4em" viewBox="0 0 20 20"><path fill="currentColor" fill-rule="evenodd" d="M20 3.894a8.299 8.299 0 0 1-2.357.636a4.062 4.062 0 0 0 1.804-2.234a8.298 8.298 0 0 1-2.605.98A4.13 4.13 0 0 0 13.847 2c-2.266 0-4.103 1.808-4.103 4.04c0 .316.036.624.106.92a11.71 11.71 0 0 1-8.457-4.22a3.974 3.974 0 0 0-.556 2.03a4.02 4.02 0 0 0 1.826 3.362a4.143 4.143 0 0 1-1.859-.505v.05c0 1.957 1.414 3.59 3.29 3.961a4.189 4.189 0 0 1-1.852.07c.522 1.604 2.037 2.772 3.833 2.805a8.317 8.317 0 0 1-5.096 1.73A8.42 8.42 0 0 1 0 16.185A11.747 11.747 0 0 0 6.29 18c7.547 0 11.674-6.155 11.674-11.492c0-.175-.004-.35-.012-.523A8.249 8.249 0 0 0 20 3.895Z"/></svg>
             </a>
             <!-- email -->
-            <a href="./success.php">
+            <a href=".mailto:kelvinchrisman@gmail.com">
             <svg xmlns="http://www.w3.org/2000/svg" width="1.8em" height="2.4em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 19a6.995 6.995 0 0 1 10-6.32V4H2v16h10.08c-.05-.33-.08-.66-.08-1zM4 6l8 5l8-5v2l-8 5l-8-5V6zm13.34 16l-3.54-3.54l1.41-1.41l2.12 2.12l4.24-4.24L23 16.34L17.34 22z"/></svg>
             </a>
         </div>
         <div class="icons-support">
-            <a href="">
+            <a href="mailto:simpletutorial279@gmail.com?Subject= SUPPORTING RICHARD EDUCATION CONSULT">
                 <button>
                     support
                 </button>

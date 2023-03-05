@@ -5,7 +5,7 @@ require 'header.php'
     <div class="container">
         <div class="index_top_cont">
             <h1 class="h1">Our Services</h1>
-            <!-- <p>Remember, you will suceed no matter the problems you face</p> -->
+            <p>Remember, you will suceed no matter the problems you face in your education</p>
         </div>
 
     </div>
@@ -47,6 +47,27 @@ require 'header.php'
             <ul>
                 <h1>international universtities</h1>
                 <li><a href="">Arizona State university</a></li>
+                <li><a href="">Kansas state university</a></li>
+                <li><a href="">liberty university</a></li>
+                <li><a href="">sonoma state university</a></li>
+                <li><a href="">san francisco Uni</a></li>
+                <li><a href="">mississipi State Uni</a></li>
+                <li><a href="">minnesota State Uni</a></li>
+                <li><a href="">arkanas state Uni</a></li>
+                <li><a href="">Kansas state university</a></li>
+                <li><a href="">liberty university</a></li>
+                <li><a href="">sonoma state university</a></li>
+                <li><a href="">san francisco Uni</a></li>
+                <li><a href="">mississipi State Uni</a></li>
+                <li><a href="">minnesota State Uni</a></li>
+                <li><a href="">arkanas state Uni</a></li>
+                <li><a href="">Kansas state university</a></li>
+                <li><a href="">liberty university</a></li>
+                <li><a href="">sonoma state university</a></li>
+                <li><a href="">san francisco Uni</a></li>
+                <li><a href="">mississipi State Uni</a></li>
+                <li><a href="">minnesota State Uni</a></li>
+                <li><a href="">arkanas state Uni</a></li>
                 <li><a href="">Kansas state university</a></li>
                 <li><a href="">liberty university</a></li>
                 <li><a href="">sonoma state university</a></li>

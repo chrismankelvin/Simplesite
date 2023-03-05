@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=wer, initial-scale=1.0">
-    <link rel="stylesheet" href="./inc/style2.css">
+    <style>
+        .main{
+    text-align: center;
+    padding: 50px;
+    color: black;
+
+}
+.main a{
+    text-decoration: none;
+    color: rgb(29, 40, 204);
+    text-transform: uppercase;
+}
+    </style>
     <title>Document</title>
 </head>
 <body>
@@ -18,7 +30,7 @@
     Thank You For Trusting Us
     <br>
     <br>
-    <a href="./index.php">REC.COM</a>
+    <a href="./index.php">Richard Educational Consult</a>
     </div>
     
 </body>

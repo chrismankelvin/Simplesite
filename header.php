@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./inc/style.css?v=1">
-    <link rel="stylesheet" href="@mediascreen.css">
+    <link rel="stylesheet" href="./inc/@mediascreen.css">
     <script src="./inc/main.js"></script>
     <title></title>
 </head>
@@ -22,7 +22,7 @@
             </ul>
            
         </nav>
-        <side class="side"> <a href="">
+        <side class="side"> <a href="mailto:kelvinchrisman@gmail.com?Subject= FOUND A SITE BUG">
             <button class="top-btn">
             Report site bug
         </button></a>
