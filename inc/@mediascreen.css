@@ -1,0 +1,346 @@
+@media screen and (max-width: 600px) {
+
+
+    .header nav ul li {
+       list-style: none;
+       line-height: 40px;
+       display: inline-block;
+       margin-left: 30px;
+    }
+
+
+    .header nav ul li a {
+       text-transform: uppercase;
+       text-decoration: none;
+       font-size: 14px;
+    }
+
+    .main .container h1 {
+       text-align: center;
+       padding: 0px 0 20px 0;
+       font-size: 30px;
+    }
+
+    .nav_sidebar {
+       height: calc(100vh - 40px);
+
+    }
+
+    .main .container p {
+       text-align: center;
+       font-size: 15px;
+    }
+
+    .main .container .index_top_cont {
+       background-size: 400%;
+
+    }
+
+    .main .container .index_top_cont img {
+       width: 400px;
+       height: 400px;
+       margin-left: 0;
+       margin-top: 90px;
+    }
+
+    .main .container .index_top_cont p {
+       margin-left: 30px;
+    }
+
+    .main .container .index_middle_cont img {
+       width: 90%;
+       height: inherit;
+       margin: 10px 10px 10px 20px;
+
+
+    }
+
+    .main .container .index_middle_cont {
+       display: inline-block;
+       height: inherit;
+
+    }
+
+    .main .container .index_middle_cont .p .p1,
+    .main .container .index_middle_cont .p .p2,
+    .main .container .index_middle_cont .p .p3,
+    .main .container .index_middle_cont .p .p4 {
+       padding-bottom: 10px;
+       margin-top: 10px;
+    }
+
+    .main .container .buts {
+       width: 340px;
+       height: 70px;
+    }
+
+    button a {
+       text-decoration: none;
+       font-size: 10px;
+    }
+
+    .main .snd_rqst_container .onebut {
+       background-color: transparent;
+       width: 150px;
+       height: 70px;
+       margin-left: 50px;
+       margin-top: 40px;
+    }
+
+    .onebutton {
+
+       background-color: tan;
+       margin-left: 30%;
+    }
+
+    .main .container .onebut {
+       background-color: transparent;
+       width: 420px;
+       height: 70px;
+       margin-top: 20px;
+
+    }
+
+    /* .main .container .index_top_cont .apoint .apointment .onebut{
+    margin-left: calc(150px);
+    background-color: #109fff;
+    width: 100%;
+    height: 300px;
+ } */
+    .main .snd_rqst_container .onebut .onebutton {
+       transform: none;
+       width: 90%;
+       height: 40px;
+       margin: auto;
+    }
+
+    .main .snd_rqst_container {
+       padding: none;
+    }
+
+    .main .snd_rqst_container .holder {
+       width: 85%;
+       height: 450px;
+       padding-left: none;
+       background: #e4e4e4d3;
+       margin: auto;
+    }
+
+    .main .snd_rqst_container .holder form fieldset {
+
+       line-height: 60px;
+       border: none;
+       margin-right: 0px;
+       font-size: 1px;
+       visibility: hidden;
+
+    }
+
+    .main .snd_rqst_container .holder form {
+       width: 99%;
+       padding-left: 0;
+    }
+
+    .main .snd_rqst_container .holder form input {
+       width: 80%;
+       height: 30px;
+       margin-top: 22px;
+       border-radius: 0.1px;
+       border: none;
+       border-bottom: 1px solid #109fff;
+       padding: 2px;
+       box-shadow: none;
+    }
+
+    .main .snd_rqst_container .holder form input:focus {
+       background-color: transparent;
+
+    }
+
+    .main .snd_rqst_container .holder form button {
+       margin-left: 23%;
+       border-radius: 40px;
+    }
+
+    .main .container1 {
+       background-color: transparent;
+       height: inherit;
+       width: 90%;
+       margin: auto;
+       padding-top: 40px;
+
+    }
+
+    .main .container1 .leftmain {
+       float: none;
+       width: 100%;
+       height: inherit;
+    }
+
+    .main .container1 .rightlinks {
+       float: none;
+       width: 95%;
+       height: 400px;
+       padding: none;
+       border-left: none;
+    }
+
+    .main .container1 .rightlinks h1 {
+       font-size: 21px;
+       text-decoration: underline;
+    }
+
+    .footer .services {
+       background-color: transparent;
+       width: 90%;
+       height: 30px;
+       padding: 1px 10px 5px;
+       margin: auto;
+       margin-top: 30px;
+    }
+
+    .footer .services ul li {
+       list-style: none;
+       margin-top: 10px;
+       display: inline-flex;
+       background-color: transparent;
+       border-left: 2px solid #660707;
+       ;
+       margin-left: 5px;
+
+
+    }
+
+    .footer .services ul li a {
+       text-align: center;
+       text-decoration: none;
+       font-weight: bold;
+       text-transform: capitalize;
+       color: #fff;
+       font-size: 13px;
+       margin-left: 4px;
+
+    }
+
+    .main .container .index_top_cont h1 {
+       color: rgb(255, 255, 255);
+       font-size: 30px;
+       line-height: 500px;
+
+    }
+
+    .main .container1 {
+       background-color: rgb(255, 255, 255);
+       height: inherit;
+       padding-top: 10px;
+       width: 99.999999%;
+    }
+
+    .main .container .apointment {
+       display: inline;
+    }
+
+    .main .container .apointment img {
+       width: 100%;
+       height: 340px;
+    }
+
+    .main .container .apointment .apoint h3,
+    .main .container .apointment .apoint p {
+
+       text-align: center;
+    }
+
+    /* image cards image cards image cards
+ image cards image cards image cards
+ image cards image cards image cards
+ image cards image cards image cards */
+    /* .index_down_cont{ */
+    /* width: calc(100%);
+    overflow: hidden;
+ }
+ .index_down_cont .cards{
+    width: 100%;
+    padding: 20px;
+    display: inline;
+ }
+ .index_down_cont .cards .card1,
+.index_down_cont .cards .card2,
+.index_down_cont .cards .card3,
+.index_down_cont .cards .card4{
+ margin-left: 10px;
+
+} */
+
+
+
+
+
+
+ }
+
+ @media screen and (width: 768px) {
+    .main .container .holder form input {
+       width: 40%;
+       height: 30px;
+       margin-top: 22px;
+       background-color: rgba(255, 255, 255, 0.158);
+
+       border-radius: 5px;
+       padding: 2px;
+
+    }
+
+    .main .container1 {
+       background-color: transparent;
+       height: inherit;
+    }
+
+    .main .container1 .rightlinks {
+       background-color: whitesmoke;
+       float: none;
+       width: 100%;
+       border-left: none;
+    }
+
+    .main .container1 .leftmain {
+       background-color: transparent;
+       float: none;
+       width: 100%;
+       height: 400px;
+
+    }
+
+    .footer .services {
+       background-color: transparent;
+       width: 349px;
+       height: 30px;
+       padding: 1px 10px 5px;
+       margin: auto;
+       margin-top: 30px;
+    }
+
+    .footer .services ul li {
+       list-style: none;
+       margin-top: 10px;
+       display: inline-flex;
+       background-color: transparent;
+       margin-left: 1px;
+
+
+    }
+
+    .footer .services ul li a {
+       text-align: center;
+       text-decoration: none;
+       font-weight: bold;
+       text-transform: capitalize;
+       color: #fff;
+       font-size: 13px;
+       margin-left: 4px;
+
+    }
+
+
+
+ }
