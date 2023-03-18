@@ -477,7 +477,7 @@ button:hover {
    text-transform: uppercase;
 }
 
-/* social tab social tab social tab social tab 
+/* social tab social tab social tab social tab  */
 
 .main .container .social_cont .cont1,
 .main .container .social_cont .cont2,
@@ -618,11 +618,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    color: #660707;
 }
 
-.main .container1 p {
-   text-align: center;
-   font-size: 17px;
-   color: #660707;
-}
+
 
 .main .container1 .leftmain {
    width: 68%;
@@ -632,11 +628,11 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 
 }
 
-.main .leftmain .service1,
-.main .leftmain .service2,
-.main .leftmain .service3,
-.main .leftmain .service4,
-.main .leftmain .service5 {
+.main .container1 .leftmain .service1,
+.main .container1 .leftmain .service2,
+.main .container1 .leftmain .service3,
+.main .container1 .leftmain .service4,
+.main .container1 .leftmain .service5 {
    width: 95%;
    height: 80vh;
    background-color: #ffffff;
@@ -645,15 +641,23 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    margin-bottom: 9px;
    border-bottom: 7px solid burlywood;
    box-shadow: 1px 1px 1.25px 1px rgba(0, 0, 0, 0.158);
+   overflow: scroll;
 }
 
 .main .leftmain h2 {
    text-transform: uppercase;
    text-align: center;
-   font-weight: bold;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.main .container1 .leftmain p {
+   text-align: left;
+   font-size: 18px;
+   color:  black;
+   /* background-color: #109fff; */
+   padding: 20px;
+   line-height: 24px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .main .container1 .rightlinks {
    width: 28%;
    height: 200vh;
@@ -695,7 +699,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 }
 
 .clickhere {
-   color: #f3bf30;
+   color: #6745ff;
    text-transform: capitalize;
 }
 
