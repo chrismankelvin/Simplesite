@@ -146,7 +146,7 @@
 .main .container .index_top_cont {
    width: 100%;
    height: 90vh;
-   background-image: linear-gradient(#050505d3, #050505d3), url(./files/people_run.jpg);
+   background-image: linear-gradient(#ffffffd3, #ffffffd3), url(./files/people_run.jpg);
    background-position: center;
    background-size: 100%;
    background-color: rgb(255, 255, 255);
@@ -159,13 +159,16 @@
    font-size: 32px;
    margin-left: 0;
    line-height: 500px;
-   color: white;
+   color: rgb(16, 0, 165);
+   text-transform: uppercase; 
 }
 .main .container .index_top_cont .h1{
    font-size: 42px;
    line-height: 300px;
-   color: white;
-   margin: auto;
+   color: rgb(16, 0, 165);
+   text-transform: uppercase; 
+   text-align: center;
+
 }
 .main .container .index_top_cont div{
    display: flex;
@@ -213,15 +216,83 @@
 
 .main .container .index_down_cont {
    width: 100%;
-   height: 435px;
-   background-color: #e6e3e3;
+   height: 350px;
+   background-color: transparent;
+   /* display: block; */
+   padding-top:20px ;
+   padding-bottom: 20px;
+}
+
+/* .index_down_cont video gallery */
+.wrapper-video{
+   margin: 0 1vw;
+}
+#index-video {
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto;
+    gap: 10px;
+    grid-template-areas:
+    /* "h3 h3 h3 h3 h3" */
+    "img1 img2 img3 img4 img5";
+}
+#index-video .video-thumb{
+   width: 100%;
+   height: 350px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   cursor: pointer;
+}
+/* #index-gallery .img1{
+   grid-area: gallery-h3;
+} */
+#index-video .img1{
+   grid-area: img1;
+   background-image: url(./1.jpg);
+}
+#index-video .img2{
+   grid-area: img2;
+   background-image: url(./2.jpg);
+}
+#index-video .img3{
+   grid-area: img3;
+   background-image: url(./3.jpg);
+}
+#index-video .img4{
+   grid-area: img4;
+   background-image: url(./4.jpg);
+}
+#index-video .img5{
+   grid-area: img5;
+   background-image: url(./5.jpg);
+}
+.video-thumb div{
+   width: 100;
+   height: 100%;
+   background-color: black;
+   opacity: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.video-thumb a{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+   color: azure;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+.video-thumb div:hover{
+   opacity: 0.7;
+   transition: all ease-in-out 100ms;
 }
 
 
 /* other */
 
 
-.main .container h1 {
+.main .container h3 {
    text-align: center;
    padding: 10px 0 10px 0;
    font-size: 40px;

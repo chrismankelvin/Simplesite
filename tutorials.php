@@ -11,7 +11,6 @@ require 'header.php'
     </div>
     <div class="container1">
         <div class="leftmain">
-
             <div class="service1">
                 <h2>Study Abroad</h2>
                 <p>
