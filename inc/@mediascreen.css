@@ -4,8 +4,13 @@
     .header{
         background-color: #660707;
     } */
+    .header {
+      height: 60px;
+   }
     .header nav {
         width: calc(100% - 140px);
+        background-color: transparent;
+        height: 60px;
         overflow: hidden;
         /* border-bottom: 5px solid saddlebrown; */
     }
@@ -13,6 +18,8 @@
         width: 140px;
         padding: 0;
         margin-left: 0;
+        background-color: transparent;
+        margin-top: 5px;
     }
     .header .side .top-btn{
         width: 120px;
@@ -23,10 +30,10 @@
      /* sidebar */
     .header .btn_toggle_nav{
         width: 60px;
-        background-size: 37%;
+        background-size: 55%;
     }
     .nav_sidebar {
-        height: calc(100vh-60px);
+        height: calc(100vh - 60px);
     }
     .header nav ul li {
        list-style: none;
@@ -78,13 +85,14 @@
         font-size: 19px;
         /* background-color: #660707; */
         text-align: center;
-        color: rgb(255, 255, 255);
+        color: rgb(226, 134, 28);
 
 
     }
 
     .main .container .index_top_cont p {
-       margin-left: 30px;
+      padding: 10px;
+      transform: translateY(-20px);
     }
 
     .main .container .index_middle_cont img {
@@ -108,6 +116,16 @@
        padding-bottom: 10px;
        margin-top: 10px;
     }
+    
+    /* #index-video {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 10px;
+      grid-template-areas:
+         /* "h3 h3 h3 h3 h3"
+         "img1 img2 img3 img4 img5";
+   } */
 
     .main .container .buts {
        width: 340px;
@@ -216,6 +234,13 @@
        width: 100%;
        height: inherit;
     }
+    .main .container1 .leftmain .service1,
+.main .container1 .leftmain .service2,
+.main .container1 .leftmain .service3,
+.main .container1 .leftmain .service4,
+.main .container1 .leftmain .service5 {
+   overflow: scroll; 
+}
 
     .main .container1 .rightlinks {
        float: none;
@@ -223,6 +248,7 @@
        height: 400px;
        padding: none;
        border-left: none;
+       overflow: scroll;
     }
 
     .main .container1 .rightlinks h1 {
@@ -318,6 +344,44 @@
         height: 30px;
         width: 100px;
     }
+/* 
+    SERVICES SERVICES 
+    TAB
+    TAB */
+
+
+    /* 
+    CONTACT CONTACT CONTACT 
+    TAB
+    TAB */
+    
+    .main .container .social-tab{
+      background-color: transparent;
+      width: 90%;
+      padding: 20PX;
+    }
+.main .container .social-tab .cont {
+   display: inline;
+}
+.main .container .social-tab .cont .i1,
+.main .container .social-tab .cont .i2,
+.main .container .social-tab .cont .i3,
+.main .container .social-tab .cont .i4,
+.main .container .social-tab .cont .i5{
+   /* background-color: #109fff; */
+   width: 100%;
+   background-size: 40%;
+   height: 200px;
+}
+.main .container .social-tab .cont .icn-info {
+   width: 100%;
+   height: fit-content;
+   overflow: scroll;
+
+}
+
+
+
 
  
 
@@ -328,6 +392,9 @@
 
 
  }
+
+
+
 
  @media screen and (width: 768px) {
     .main .container .holder form input {
