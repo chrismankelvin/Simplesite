@@ -23,15 +23,16 @@
    width: 70px;
    height: 100%;
    background-color: #ffffff2a;
-   background-image: url(./files/menu.png);
+   background-image: url(./files/hambuger.png);
    background-repeat: no-repeat;
-   background-size: 40%;
+   background-size: 50%;
    background-position: center;
    cursor: pointer;
+   /* border-radius: 0px; */
 }
 
 .header .btn_toggle_nav:hover {
-   background-size: 42%;
+   background-size: 40%;
    transition: all 0.1s ease-in-out;
    background-color: #24218b41;
 }
@@ -112,7 +113,7 @@
 .header nav ul li a {
    text-transform: uppercase;
    text-decoration: none;
-   font-size: 15px;
+   font-size: 16px;
    color: #0800ff85;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
@@ -121,7 +122,7 @@
 .header nav ul li a:hover {
    color: #221f6efa;
    transition: 0.2s ease-in-out;
-   font-size: 15.3px;
+   font-size: 15.9px;
 
 }
 
@@ -254,6 +255,12 @@
    background-size: cover;
    background-position: center;
    cursor: pointer;
+}
+#index-video .video-thumb:hover {
+   box-shadow: 2px 3px 9px 3px rgba(0, 0, 0, 0.267);
+   transition: 900ms;
+   float: 0;
+   transform: translateY(-10px);
 }
 
 /* #index-gallery .img1{
@@ -596,18 +603,20 @@ button:hover {
    padding: 30px;
 }
 .main .container .about-tab h1{
-   color: turquoise;
+   color: rgb(216, 157, 29);
    margin-top: 20px;
    font-weight: bold;
    text-transform: uppercase;
+   font-family: Arial, Helvetica, sans-serif;
 
 }
 .main .container .about-tab .about {
-   width: 90%;
+   width: 100%;
    height: fit-content;
    margin-top: 20px;
    /* padding: 30px; */
-   background-color: #e4e1e1;
+   background-color: #cec9c970;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .main .container .about-tab .about p{
    padding: 20px;
@@ -646,8 +655,22 @@ button:hover {
 .main .container .social-tab .cont .icn-info {
    width: 70%;
    height: 300px;
-   background-color: #e4dfdf;
+   /* background-color: #e4dfdf; */
    /* margin-left: 10%; */
+}
+.main .container .social-tab .cont .icn0{
+   /* background-color: #f3babe; */
+   /* border-bottom: 3px solid #f3babe; */
+   box-shadow: 0px 0px 13px 0px inset #f3babeb7;
+}
+.main .container .social-tab .cont .icn1{
+   background-color: #AAe0f3;
+}
+.main .container .social-tab .cont .icn2{
+   background-color: #Abdbb0;
+}
+.main .container .social-tab .cont .icn3{
+   background-color: #d3daf7;
 }
 
 .main .container .social-tab .cont .icn-info p {
@@ -661,7 +684,7 @@ button:hover {
 /* ICONS ICONS ICONS */
 
 .main .container .social-tab .cont .i1 {
-   background-image: url(./files/contacticon.png);
+   background-image: url(./files/youtube-shadow.png);
    background-position: center;
    background-size: 70%;
    background-repeat: no-repeat;
@@ -670,7 +693,7 @@ button:hover {
 }
 
 .main .container .social-tab .cont .i2 {
-   background-image: url(./files/contacticon.png);
+   background-image: url(./files/twitter-shadow.png);
    background-position: center;
    background-size: 70%;
    background-repeat: no-repeat;
@@ -679,7 +702,7 @@ button:hover {
 }
 
 .main .container .social-tab .cont .i3 {
-   background-image: url(./files/contacticon.png);
+   background-image: url(./files/whatsapp-shadow.png);
    background-position: center;
    background-size: 70%;
    background-repeat: no-repeat;
@@ -688,7 +711,7 @@ button:hover {
 }
 
 .main .container .social-tab .cont .i4 {
-   background-image: url(./files/contacticon.png);
+   background-image: url(./files/email.png);
    background-position: center;
    background-size: 70%;
    background-repeat: no-repeat;

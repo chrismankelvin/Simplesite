@@ -15,7 +15,7 @@ require 'header.php'
                 <div class="icn i1">
 
                 </div>
-                <div class="icn-info">
+                <div class="icn-info icn0">
                     <p>
                         At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
                         At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
@@ -31,7 +31,7 @@ require 'header.php'
                 <div class="icn i2">
 
                 </div>
-                <div class="icn-info">
+                <div class="icn-info icn1">
                     <p>
                         At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
                         At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
@@ -45,7 +45,7 @@ require 'header.php'
                 <div class="icn i3">
 
                 </div>
-                <div class="icn-info">
+                <div class="icn-info icn2">
                     <p>
                         At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
                         At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
@@ -59,7 +59,7 @@ require 'header.php'
                 <div class="icn i4">
 
                 </div>
-                <div class="icn-info">
+                <div class="icn-info icn3">
                     <p>
                         At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
                         At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
