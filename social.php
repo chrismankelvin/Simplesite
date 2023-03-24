@@ -4,11 +4,76 @@ require 'header.php'
 <div class="main">
 
     <div class="container">
+
+
         <div class="index_top_cont">
+            <h1 class="h1">Contact Information</h1>
             <!-- <img src="./inc/files/logo.png"> -->
         </div>
-        <div class="social_cont">
-            <div class="cont1">
+        <div class="social-tab">
+            <div class="cont">
+                <div class="icn i1">
+
+                </div>
+                <div class="icn-info">
+                    <p>
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+            <div class="cont">
+                <div class="icn i2">
+
+                </div>
+                <div class="icn-info">
+                    <p>
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="cont">
+                <div class="icn i3">
+
+                </div>
+                <div class="icn-info">
+                    <p>
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="cont">
+                <div class="icn i4">
+
+                </div>
+                <div class="icn-info">
+                    <p>
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                        At Richard Educational Consult, we believe that access to education should not be limited by financial constraints. That's why we are dedicated to connecting students with scholarship opportunities that can help them achieve their academic and career aspirations. Contact us today to learn more about our scholarship offerings and how we can support your academic journey.
+                    </p>
+
+                </div>
+            </div>
+
+
+
+
+
+            <!-- <div class="cont1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="7em" height="7em" viewBox="0 0 256 180">
                     <path fill="  #6745ff" d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134Z" />
                     <path fill="#FFF" d="m102.421 128.06l66.328-38.418l-66.328-38.418z" />
@@ -81,7 +146,7 @@ require 'header.php'
                     <path fill="#597B91" d="M291.401 154.645h-38.632a6.155 6.155 0 0 0-6.155 6.155v21.722a6.155 6.155 0 0 0 6.155 6.155h31.415a6.155 6.155 0 0 1 6.155 6.155v11.616a6.155 6.155 0 0 1-6.155 6.155h-31.415a6.155 6.155 0 0 0-6.155 6.155v23.578a6.155 6.155 0 0 0 6.155 6.155h41.316a6.155 6.155 0 0 1 6.155 6.155v12.441a6.155 6.155 0 0 1-6.155 6.155h-75.76a6.155 6.155 0 0 1-6.155-6.155V136.461a6.155 6.155 0 0 1 6.155-6.155h74.81c3.749 0 6.627 3.322 6.092 7.033l-1.733 12.028a6.156 6.156 0 0 1-6.093 5.278z" />
                 </svg>
 
-            </div>
+            </div> -->
 
 
         </div>
