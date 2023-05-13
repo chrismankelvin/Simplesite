@@ -13,7 +13,6 @@ require 'header.php'
 
                 </h1>
                 <!-- <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p> -->
-
             </div>
 
 
