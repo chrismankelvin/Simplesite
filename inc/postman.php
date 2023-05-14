@@ -1,43 +1,61 @@
 
 <?php
+// include 'database_connection.php';
+
+$dbservername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "richard_educational_consult";
+
+$conn = mysqli_connect($dbservername, $username, $password, $dbname);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $country = $_POST['country'];
-    $grpname = $_POST['grpname'];
-    $grplink = $_POST['grplink'];
+    $phone = $_POST['phone'];
+    $education = $_POST['education'];
 
-    if (empty($name) || empty($email) || empty($country) || empty($grpname) || empty($grplink)) {
-        header("location: ../progsignin.php?error=emptyfields");
+    if (empty($name) || empty($email) || empty($country) || empty($phone) || empty($education)) {
+        header("location: ../SendRequest.php?error=emptyfields");
         exit();
     } elseif (empty($name)) {
-        header("location: ../progsignin.php?error=noname");
+        header("location: ../SendRequest.php?error=noname");
         exit();
     } elseif (empty($email)) {
-        header("location: ../progsignin.php?error=noemail");
+        header("location: ../SendRequest.php?error=noemail");
         exit();
     } elseif (empty($country)) {
-        header("location: ../progsignin.php?error=nocountry");
+        header("location: ../SendRequest.php?error=nocountry");
         exit();
-    } elseif (empty($grpname)) {
-        header("location: ../progsignin.php?error=nogroupname");
+    } elseif (empty($phone)) {
+        header("location: ../SendRequest.php?error=nophone");
         exit();
-    } elseif (empty($grplink)) {
-        header("location: ../progsignin.php?error=nogrouplink");
+    } elseif (empty($education)) {
+        header("location: ../SendRequest.php?error=noeducation");
         exit();
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-
-        header("location: ../progsignin.php?error=invalidemail");
+        header("location: ../SendRequest.php?error=invalidemail");
         exit();
-    } elseif (!preg_match('/^\+(?:[0-9] ?){6,14}[0-9]$/', $grpname)) {
-        header("location: ../progsignin.php?error=invalidenumber");
+    } elseif (!preg_match('/^\+(?:[0-9] ?){6,14}[0-9]$/', $phone)) {
+        header("location: ../SendRequest.php?error=invalidenumber");
         exit();
     }else {
 
-    $file = fopen("data.txt", "a");
-    fwrite($file, $name . "," . $email . "," . $country . "," . $grpname . "," . $grplink . "\n");
-    fclose($file);
-    header("location: ../success.php?signin=success");
+    // $file = fopen("data.txt", "a");
+    // fwrite($file, $name . "," . $email . "," . $country . "," . $grpname . "," . $grplink . "\n");
+    // fclose($file);
+    // header("location: ../success.php?signin=success");
+
+    $sql = "INSERT INTO rec_appointments (user_name, user_email, user_country, user_phone, user_education)
+    VALUES ('$name', '$email', '$country', '$phone', '$education')";
+
+mysqli_query($conn, $sql);
     
+    header("Location: ../Success.php?signup=success");
 }
 }

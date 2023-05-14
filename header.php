@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./inc/style.css?v=1">
     <link rel="stylesheet" href="./inc/@mediascreen.css?v=1">
     <script src="./inc/main.js"></script>
-    <title></title>
+    <title>REC</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 
             <ul>
                 <li><a href="index.php">home</a></li>
-                <li><a href="tutorials.php">services</a></li>
+                <li><a href="./Service.php">services</a></li>
             </ul>
            
         </nav>
@@ -32,12 +32,12 @@
         <ul>
             <li><span>REC Menu</span></li>
             <li><a href="./index.php">home</a></li>
-            <li><a href="././tutorials.php">services</a></li>
-            <li><a href="./services.php">Shedule Appointment</a></li>
+            <li><a href="./Service.php">services</a></li>
+            <li><a href="./appointment.php">Shedule Appointment</a></li>
             <li><a href="#">Sucess Rate Calculator (SRC)</a></li>
             <li><a href="#">required documents</a></li>
             <li><a href="#">Mr. Richard Agyei</a></li>
-            <li><a href="./social.php">contact</a></li>
+            <li><a href="./Social.php">contact</a></li>
 
         </ul>
 
