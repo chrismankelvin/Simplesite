@@ -1,17 +1,6 @@
 
 <?php
-// include 'database_connection.php';
-
-$dbservername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "richard_educational_consult";
-
-$conn = mysqli_connect($dbservername, $username, $password, $dbname);
-
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+include 'database_connection.php';
 
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
