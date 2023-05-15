@@ -554,22 +554,26 @@ button:hover {
 /* the appointment styling   the appointment styling  the appointment styling */
 
 .main .container .apointment {
-   background-color: white;
+   background-color: rgb(255, 255, 255);
    width: 100%;
    height: 100vh;
    display: flex;
 }
 
-.main .container .apointment img {
+.main .container .apointment .apointment-img {
    width: 615px;
    height: 461px;
+   background-image: url(./icons/Humaaans\ -\ 1\ Character.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100%;
    margin-top: 20px;
 }
 
 .main .container .apointment .apoint {
    width: auto;
    height: inherit;
-   background-color: white;
+   background-color: rgb(170, 66, 66);
 }
 
 .main .container .apointment .apoint h3 {

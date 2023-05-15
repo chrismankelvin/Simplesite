@@ -8,7 +8,8 @@ require 'header.php'
              <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p>
         </div>
         <div class="apointment">
-            <img src="./inc/files/appointment3.png" >
+            <!-- <img src="./inc/icons/Humaaans - 1 Character.png" > -->
+            <div class="apointment-img"></div>
             <div class="apoint">
 
                 <h3>
