@@ -4,8 +4,8 @@ require 'header.php'
 <div class="main">
     <div class="container">
         <div class="index_top_cont">
-            <h1 class="h1">Apointment</h1>
-             <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p>
+           <div class="title_img"> <p>Apointment img</p> </div>
+             <!-- <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p> -->
         </div>
         <div class="apointment">
             <!-- <img src="./inc/icons/Humaaans - 1 Character.png" > -->

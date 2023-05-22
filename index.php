@@ -6,8 +6,10 @@ require 'header.php'
 
     <div class="container">
         <div class="index_top_cont">
+            <div class="main_logo">
+                <!-- <img src="./inc/files/logo.png"> -->
+            </div>
             <div>
-                <img src="./inc/files/logo.png">
                 <h1 class="mainh1">
                     welcome to Richard educational consult
 
@@ -20,7 +22,7 @@ require 'header.php'
 
         <div class="index_middle_cont">
             <cont>
-                <img src="./inc/files/dr_tim.jpg" alt="">
+                <img src="./inc/images/dr_tim.jpg" alt="">
 
 
             </cont>

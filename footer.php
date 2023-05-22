@@ -1,7 +1,7 @@
 <div class="footer">
     <div class="footer-content">
         <div class="footer-img">
-            <img src="./inc/files/footer-logo.png">
+            <img src="./inc/icons/footer-logo.png">
         </div>
         <div class="footer-links">
             <div class="links">
