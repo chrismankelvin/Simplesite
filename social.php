@@ -7,7 +7,8 @@ require 'header.php'
 
 
         <div class="index_top_cont">
-            <h1 class="h1">Contact</h1>
+        <div class="title_img2"> 
+             </div>
             <!-- <img src="./inc/files/logo.png"> -->
         </div>
         <div class="social-tab">

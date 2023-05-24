@@ -4,7 +4,7 @@ require 'header.php'
 <div class="main">
     <div class="container">
         <div class="index_top_cont">
-           <div class="title_img"> <p>Apointment img</p> </div>
+           <div class="title_img1">  </div>
              <!-- <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p> -->
         </div>
         <div class="apointment">

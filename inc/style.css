@@ -167,22 +167,43 @@
    background-size: 100%;
 
 }
-.main .container .index_top_cont div .mainh1 {
-   text-align: left;
+.main .container .index_top_cont .mainh{
+   width: 50%;
+   height: auto;
+   background-image: url(./icons/WELCOME.png);
+   background-repeat: no-repeat;
+   background-size: center;
+   /* width: 50%;
+   height: 90vh; */
+   /* text-align: left;
    font-size: 30px;
    margin-left: 0;
    line-height: 500px;
    color: rgb(16, 0, 165);
-   text-transform: uppercase;
+   text-transform: uppercase; */
 }
 
-.main .container .index_top_cont .title_img {
+.main .container .index_top_cont .title_img1,
+.main .container .index_top_cont .title_img2,
+.main .container .index_top_cont .title_img3 {
    margin: auto;
    width: 50%;
    height: 90vh;
-   background-color: #109fff;
-
+   /* background-color: #109fff;
+    */
+    background-position: cover;
+    background-repeat: no-repeat;
 }
+.main .container .index_top_cont .title_img1{
+   background-image: url(./icons/APPOINT.png);
+}
+.main .container .index_top_cont .title_img2{
+   background-image: url(./icons/contact.png);
+}
+.main .container .index_top_cont .title_img3{
+   background-image: url(./icons/SERVICES.png);
+}
+
 .main .container .index_top_cont .title_img p{
    text-align: right;
    font-size: larger;
@@ -778,7 +799,8 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    margin: auto;
    border: none;
    border-radius: 5px;
-   background-image: linear-gradient(#ffffffc4, #ffffffcb), url(./files/people_run.jpg);
+   /* background-image: linear-gradient(#ffffffc4, #ffffffcb), url(./images/people_run.jpg); */
+   /* background-image: url(./icons/form_bg.png); */
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -801,7 +823,12 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 .main .snd_rqst_container {
    width: 99.9%;
    height: 120vh;
-   background-color: #ffffff;
+   /* background-color: #ffffff; */
+
+background-image: url(./icons/form_bg.png);
+background-repeat: no-repeat;
+background-position: cover;
+
    margin: auto;
    padding-top: 40px;
    border-top: 2px solid #24218bf6;
@@ -838,7 +865,7 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
    width: 50%;
    height: 30px;
    margin-top: 22px;
-   background-color: rgba(255, 255, 255, 0.158);
+   background-color: rgba(104, 34, 34, 0);
    border: 0.05px solid #211f6e59;
    border-radius: 5px;
    padding: 2px;
@@ -908,13 +935,32 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 .main .container1 .leftmain .service5 {
    width: 95%;
    height: 80vh;
-   background-color: #ffffff;
+   /* background-color: #ffffff; */
+   background-position: center;
+   background-size: 60%;
+   background-repeat: no-repeat;
+
    margin: auto;
    padding: 5px;
    margin-bottom: 9px;
    border-bottom: 7px solid burlywood;
    box-shadow: 1px 1px 1.25px 1px rgba(0, 0, 0, 0.158);
    /* overflow: scroll; */
+}
+.main .container1 .leftmain .service1{
+   background-image: url(./icons/study_abroad.png);
+}
+.main .container1 .leftmain .service2{
+   background-image: url(./icons/scholarship.png);
+}
+.main .container1 .leftmain .service3{
+   background-image: url(./icons/imigration.png);
+}
+.main .container1 .leftmain .service4{
+   background-image: url(./icons/visa_issue.png);
+}
+.main .container1 .leftmain .service5{
+   background-image: url(./icons/other.png);
 }
 
 .main .leftmain h2 {
@@ -976,4 +1022,190 @@ styling of the formstyling of the formstyling of the formstyling of the formstyl
 .clickhere {
    color: #6745ff;
    text-transform: capitalize;
+}
+
+
+/* REQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGE
+REQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGE
+REQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGEREQUEST SENT PAGEREQUEST */
+*{
+   margin: 0;
+   padding: 0;
+}
+.maining{
+   width: 98%;
+   height: 99vh;
+   padding: 1%;
+   background-color: #ffffff;
+}
+.maining .maning{
+   margin: auto;
+   /* width: 550px; */
+   width: 40%;
+   margin-top: 90px;
+   padding: 10px;
+   height: 400px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0.5px 1px 4px 2px rgb(230, 226, 226);
+   border-radius: 10px;
+}
+.maning .icning {
+   width: 100%;
+   height: 210px;
+   /* background: #f0ecec; */
+   background-image: url(./icons/bg19.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 150px;
+   
+
+}
+.maning .p {
+   text-align: center;
+   font-size: 18px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   color: rgb(34, 31, 31);
+}
+.maning .p2 {
+   margin-top: 30px;
+   text-align: center;
+   font-size: 16px;
+   color: rgb(34, 31, 31);
+}
+.maning .p3{
+   margin-top: 40px;
+   font-size: 14px;
+   text-align: center;
+}
+.clickherer{
+   text-decoration: underline;
+   color: rgb(196, 160, 43);
+}
+
+
+/* Index Page *//* Index Page *//* Index Page *//* Index Page *//* Index Page *//* Index Page */
+/* Index Page *//* Index Page *//* Index Page *//* Index Page *//* Index Page *//* Index Page */
+/* Index Page *//* Index Page *//* Index Page *//* Index Page *//* Index Page *//* Index Page */
+/* Index Page *//* Index Page *//* Index Page *//* Index Page *//* Index Page *//* Index Page */
+/* Index Page *//* Index Page *//* Index Page *//* Index Page *//* Index Page *//* Index Page */
+.holderer{
+   width: 35%;
+   margin: auto;
+   height: px;
+   background-color: rgba(250, 1, 1, 0.712);
+   padding: 20px;
+   border-radius: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   box-shadow: 0.5px 1px 4px 2px rgb(230, 226, 226);
+}
+.icn1{
+   width: 100%;
+   background-color: #109fff;
+   height: 100px;
+   /* background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-image: url(./icons/bg19.png); */
+   margin-bottom: 30px;
+   
+}
+.sub-holder1{
+   width: 100%;
+   height: 55px;
+   background-color: rgba(94, 68, 68, 0);
+   display: flex;
+   justify-content: space-around;
+   
+}
+.main .holderer .sub-holder1 input{
+   height: 30px;
+   width: 45%;
+   text-align: center;
+   margin-top: 10px;
+   border-radius: 5px;
+   background-color: #ffffff;
+   border: none;
+}
+.main .holderer .sub-holder1 input:focus{
+   background-color:  rgba(149, 149, 233, 0.404);
+}
+.sub-holder2{
+   width: 100%;
+   height: 55px;
+   background-color: rgba(109, 109, 102, 0);
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.sub-holder2 input{
+   width: 95%;
+   height: 35px;
+   border-radius: 5px;
+   margin-left: 2.5%;
+   background-color: #ffffff;
+   border: none;
+   text-align: center;
+   margin-top: 10px;
+}
+.sub-holder2 input:focus{
+   background-color:  rgba(149, 149, 233, 0.404);
+
+}
+.sub-holder3{
+   width: 100%;
+   height: inherit;
+   margin-top: 20px;
+}
+.sub-holder3 p{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 16px;
+}
+.sub-holder3 textarea{
+   width: 95%;
+   /* height: 60px; */
+   padding: 10px;
+   font-size: 11px;
+   border-radius: 5px;
+   border: none;
+   background-color: #ffffff;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub-holder3 textarea:focus{
+   background-color: rgba(149, 149, 233, 0.404);
+   border: none;
+   
+
+}
+.sub-holder3 textarea:active{
+   border: none;
+
+}
+.sub-holder4{
+   width: 100%;
+   height: 60px;
+   background-color: rgba(137, 43, 226, 0);
+   margin-top: 40px;
+   /* border: 4px solid burlywood;
+   border-radius: 5px; */
+}
+.sub-holder4 a button{
+   width: 100%;
+   height:40px ;
+   /* margin-left:25% ; */
+   border-radius: 5px;
+   border: none;
+   background-color: rgba(83, 83, 228, 0.842);
+   font-size: 15px;
+   font-weight: bolder;
+   color: rgb(255, 255, 255);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   box-shadow: 0.5px 1px 4px 2px rgb(230, 226, 226);
+   /* transition: 0.9s ease-in-out; */
+}
+.sub-holder4 a button:hover{
+   transform: translateY(2px);
+   transition: 0.2s ease-in-out;
+   box-shadow: none;
+
 }

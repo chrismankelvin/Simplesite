@@ -9,9 +9,9 @@ require 'header.php'
             <div class="main_logo">
                 <!-- <img src="./inc/files/logo.png"> -->
             </div>
-            <div>
+            <div class="mainh">
                 <h1 class="mainh1">
-                    welcome to Richard educational consult
+                    <!-- welcome to Richard educational consult -->
 
                 </h1>
                 <!-- <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p> -->

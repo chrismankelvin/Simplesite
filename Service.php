@@ -4,7 +4,9 @@ require 'header.php'
 <div class="main">
     <div class="container">
         <div class="index_top_cont">
-           <div class="title_img"> <p>Our Services imaged</p></div>
+           <div class="title_img3"> 
+
+           </div>
             <!-- <p>Remember, you will suceed no matter the problems you face in your education</p> -->
         </div>
 
