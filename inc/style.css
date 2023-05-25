@@ -595,19 +595,20 @@ button:hover {
 }
 
 .main .container .apointment .apointment-img {
-   width: 615px;
-   height: 461px;
-   background-image: url(./icons/Humaaans\ -\ 1\ Character.png);
-   background-position: center;
+   width: 50%;
+   height: inherit;
+   /* background-image: url(./icons/Humaaans\ -\ 1\ Character.png); */
+   /* background-position: center;
    background-repeat: no-repeat;
-   background-size: 100%;
-   margin-top: 20px;
+   background-size: 100%; */
+   background-color: #109fff00;
+   /* margin-top: 20px; */
 }
 
 .main .container .apointment .apoint {
-   width: auto;
+   width: 50%;
    height: inherit;
-   background-color: rgb(170, 66, 66);
+   background-color: rgba(170, 66, 66, 0);
 }
 
 .main .container .apointment .apoint h3 {
