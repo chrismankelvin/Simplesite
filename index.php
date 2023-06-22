@@ -9,20 +9,20 @@ require 'header.php'
             <div class="main_logo">
                 <!-- <img src="./inc/files/logo.png"> -->
             </div>
-            <div class="mainh">
+             <!-- <div class="mainh">
                 <h1 class="mainh1">
-                    <!-- welcome to Richard educational consult -->
+                     welcome to Richard educational consult 
 
                 </h1>
-                <!-- <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p> -->
-            </div>
+                <p>About 80% of the leaders in Africa, both in business and politics, had at least 20% of their Education Abroad.</p>
+            </div>  -->
 
 
         </div>
 
         <div class="index_middle_cont">
             <cont>
-                <img src="./inc/images/dr_tim.jpg" alt="">
+                <img src="./inc/images/dr_tim(1).jpg" alt="">
 
 
             </cont>

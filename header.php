@@ -11,7 +11,7 @@
     <title>REC</title>
 </head>
 
-<body>
+<body id="background">
     <div class="header">
         <nav>
             <menu class="btn_toggle_nav" onclick="toogleNav()"></menu>
@@ -30,10 +30,10 @@
     </div>
     <aside class="nav_sidebar">
         <ul>
-            <li><span>REC Menu</span></li>
+            <li><span>Menu</span></li>
             <li><a href="./index.php">home</a></li>
-            <li><a href="./Service.php">services</a></li>
-            <li><a href="./appointment.php">Shedule Appointment</a></li>
+            <!-- <li><a href="./Service.php">services</a></li> -->
+            <li><a href="./appointment.php">Consultation</a></li>
             <li><a href="#">Sucess Rate Calculator (SRC)</a></li>
             <li><a href="#">required documents</a></li>
             <li><a href="#">Mr. Richard Agyei</a></li>
