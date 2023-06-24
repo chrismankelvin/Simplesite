@@ -183,8 +183,9 @@
       width: 85%;
       height: 450px;
       padding-left: none;
-      background: #e4e4e4d3;
+      background: #e4e4e400;
       margin: auto;
+      font-size: 36px;
    }
 
    .main .snd_rqst_container .holder form fieldset {
@@ -200,6 +201,9 @@
    .main .snd_rqst_container .holder form {
       width: 99%;
       padding-left: 0;
+      box-shadow: none;
+      background-color: #ffffff96;
+   
    }
 
    .main .snd_rqst_container .holder form input {
@@ -256,8 +260,8 @@
    }
 
    .main .container1 .rightlinks h1 {
-      font-size: 21px;
-      text-decoration: underline;
+      font-size: 19px;
+
    }
    .main .container .index_top_cont{
       display: flex;
@@ -269,19 +273,22 @@
       background-color: rgba(0, 0, 255, 0);
   
    }
-   .main .container .index_top_cont div{
-      width: 1%;
-      height: 0vh;
-      background-color: #109fff;
-      /* visibility: hidden; */
-   }
-   .main .container .index_top_cont div .mainh1 {
+
+   .main .container .index_top_cont .title_img1,
+.main .container .index_top_cont .title_img2,
+.main .container .index_top_cont .title_img3 {
+   width: 100%;
+   height: 70vh;
+   /* background-color: #109fff; */
+   background-size: 70%;
+}
+   /* .main .container .index_top_cont div .mainh1 {
       color: rgb(255, 0, 0);
       font-size: 0px;
       line-height: 500px;
-      visibility: hidden;
+      /* visibility: hidden; 
 
-   }
+   } */
 
  
 
@@ -294,16 +301,33 @@
 
    .main .container .apointment {
       display: inline;
+      background-color: #109fff;
    }
 
-   .main .container .apointment img {
-      width: 100%;
-      height: 340px;
+   .main .container .apointment .apointment-img {
+      width: 92%;
+      height: auto;
+      /* background-color: bisque; */
+      margin-top: 20px;
+      padding: 10px;
+   }
+   .main .container .apointment .apoint {
+      width: 99%;
+      height: inherit;
+      background-color: rgba(172, 67, 67, 0);
+      padding: 5px;
+      height: auto;
    }
 
-   .main .container .apointment .apoint h3,
+   .main .container .apointment .apoint h3{
+      margin-top: 0px;
+      font-size: 28px;
+      text-align: center;
+
+   }
    .main .container .apointment .apoint p {
       text-align: center;
+      margin-top: -10px;
    }
 
    /* footer */
@@ -344,6 +368,7 @@
 
    .footer .footer-links .links ul li {
       line-height: 70px;
+      font-size: 13px;
    }
 
    .footer .footer-icons {
@@ -356,7 +381,7 @@
    }
 
    .footer .footer-icons .icons a {
-      margin-left: 20px;
+      margin-left: -20px;
    }
 
    .footer .footer-icons .icons p {
@@ -438,6 +463,13 @@
    
 
 }
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,16 @@
+#4B0B53: A slightly darker shade of purple.
+#0B5372: A deep, dark blue.
+#346C0B: A rich, dark green.
+Complementary Colors:
+
+#0B3454: A vibrant blue that contrasts with the purple.
+#543D0B: A warm, earthy brown that complements the purple.
+Triadic Colors:
+
+#0B534A: A teal-like shade of green.
+#530B34: A lighter, more vibrant shade of purple.
+Monochromatic Colors:
+
+#2A0722: A darker shade of purple, adding depth.
+#8F2B73: A lighter, pastel shade of purple, creating contrast.
+#EBDAED: A soft, pale lavender, introducing a lighter element.

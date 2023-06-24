@@ -19,6 +19,8 @@ require 'header.php'
                 <p>
                     <strong> Richard Vlog</strong>  We are a team of professionals who are passionate about helping students broaden their horizons through studying abroad. We understand that studying in a foreign country can be a life-changing experience, and we are here to guide you every step of the way.
                     Our study aoad is not only a great way to gain academic and professional experience, but also to broaden your cultural horizons and develop lifelong skills. Our mission is to help you make the most of your study abroad experience by providing you with the best possible support and guidance.
+                    Our study aoad is not only a great way to gain academic and professional experience, but also to broaden your cultural horizons and develop lifelong skills. Our mission is to help you make the most of your study abroad experience by providing you with the best possible support and guidance.
+                    
                     <strong><a href="" class="clickhere">Contact </a></strong> us today to learn more about our study abroad services and how we can help you achieve your academic and career aspirations through studying abroad.
                 </p>
 
