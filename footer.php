@@ -53,6 +53,7 @@
 </div>
 
 <script src="./inc/main.js"></script>
+<script src="./inc/nav.js"></script>
 
 </body>
 

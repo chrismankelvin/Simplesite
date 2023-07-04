@@ -21,11 +21,21 @@ require 'header.php'
         </div>
 
         <div class="index_middle_cont">
-            <cont>
-                <img src="./inc/images/dr_tim(1).jpg" alt="">
+            <section class="slide">
 
+                 <div class="slideshow">
+        <img src="./inc/images/stationary1.jpg" alt="Image 1">
+        <img src="./inc/images/study.jpg" alt="Image 2">
+        <img src="./inc/images/stationary.jpg" alt="Image 3">
+      </div>
+      
+      <div class="image-info">
+        <h2 id="image-title"></h2>
+        <p id="image-description"></p>
+      </div>
 
-            </cont>
+            </section>
+            
             <div class="p">
                 <div class="p1">
                     The firm is led by Richard, an experienced and highly qualified educational consultant, who is dedicated to helping students achieve their academic and professional goals. Richard has a wealth of experience working with students from diverse backgrounds and has a deep understanding of the challenges that students face when trying to navigate the education system.
